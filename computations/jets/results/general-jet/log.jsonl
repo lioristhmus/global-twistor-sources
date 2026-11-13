@@ -1,0 +1,11 @@
+{"cgroup": {"cpu.max": "100000 100000", "memory.max": "1999998976", "memory.swap.max": "0", "pids.max": "32"}, "interface_flags": {"erspan0": 4098, "gre0": 128, "gretap0": 4098, "ip6_vti0": 128, "ip6gre0": 128, "ip6tnl0": 128, "ip_vti0": 128, "lo": 9, "sit0": 128, "tunl0": 128}, "ipv4_route_rows": 0, "ipv6_only_loopback": true, "record": "preflight"}
+{"record": "dependencies", "verified": {"code/domain_checks.py": "dc1190e708ba583a6901a21867760fc2e3ace1e575bbfd3229f3bc7373e6becb", "code/jet_gaussian.py": "8248f74b2e45f7842ea42b296f428de8cd212c9420a5ef43441cb88b545c979b"}}
+{"coordinates": 4, "first": 24, "metric_entries": 6, "record": "jet-domain", "ricci_symmetry": "PASS", "second": 60}
+{"id": "GG-JET-K", "info": "", "metric_jet": "general symmetric h; h(p)=Id; 24 first + 60 second derivatives", "record": "check", "status": "PASS", "title": "K from the four-dimensional Christoffel symbols"}
+{"id": "GG-JET-RIJ", "info": "", "record": "check", "status": "PASS", "title": "All spatial Gaussian Ricci components"}
+{"id": "GG-JET-R00", "info": "", "record": "check", "status": "PASS", "title": "Gaussian time-time Ricci component"}
+{"id": "GG-JET-R0I", "info": "", "record": "check", "status": "PASS", "title": "All Gaussian time-space Ricci components"}
+{"id": "GG-JET-CONSTRAINT", "info": "", "record": "check", "status": "PASS", "title": "Hamiltonian trace identity for arbitrary constant lam"}
+{"id": "GG-BIANCHI-TIME", "info": "", "record": "check", "residual": "arbitrary symmetric E and its 40 first derivatives", "status": "PASS", "title": "Full time residual: contracted Bianchi in Gaussian coordinates"}
+{"id": "GG-BIANCHI-SPACE", "info": "", "record": "check", "status": "PASS", "title": "All three full spatial contracted-Bianchi residuals"}
+{"error": null, "expected_count": 7, "failed": [], "job": "general-jet", "metrics": {"cpu.stat": "usage_usec 1290412\nuser_usec 1145702\nsystem_usec 144709\nnice_usec 0\nnr_periods 13\nnr_throttled 8\nthrottled_usec 55105\nnr_bursts 0\nburst_usec 0", "memory.peak": "69914624", "pids.peak": "7"}, "missing": [], "observed_count": 7, "record": "summary", "status": "PASS", "versions": {"machine": "x86_64", "platform": "Linux", "python": "3.12.3", "sage": "10.9", "sympy": "1.14.0"}, "worker_seconds": 0.371}

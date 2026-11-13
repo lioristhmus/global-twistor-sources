@@ -1,0 +1,15 @@
+{
+  "prepared": "2026-11-13",
+  "tools": {
+    "pandoc": "pandoc 3.9.0.2",
+    "pandoc-crossref": "pandoc-crossref v0.3.23 git commit UNKNOWN (UNKNOWN) built with Pandoc v3.9.0.2, pandoc-types v1.23.1.1 and GHC 9.14.1",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026/Homebrew)",
+    "python3": "Python 3.14.7"
+  },
+  "engine": "pdfLaTeX",
+  "profile": "standard",
+  "toc_aux_stable": true,
+  "final_log_issues": [],
+  "underfull_warning_lines": 11,
+  "mathematical_jobs_started": 0
+}

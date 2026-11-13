@@ -1,0 +1,50 @@
+# Global twistor sources for analytic Einstein spacetimes
+
+**Lior Isthmus · manuscript v1.0 · computational supplement 1.0.0**
+
+This repository contains the paper and its accompanying reproducible symbolic
+checks. The paper globalizes the local analytic Einstein correspondence using
+source atlases, null monodromy and parametrized incidence. It also proves Nariai
+obstructions to Hausdorff whole-sky carriers and to the specified exact-support
+module realization.
+
+- [Read the paper (PDF)](paper/manuscript.pdf).
+- [Canonical manuscript (Markdown)](paper/manuscript.md),
+  [standalone TeX](paper/manuscript.tex) and [build instructions](paper/BUILD.md).
+- [Computations and reproduction instructions](computations/README.md).
+- [Check-to-proposition/equation correspondence](computations/CHECKS.md),
+  [machine-readable index](computations/checks.json) and
+  [recorded runs](computations/RUNS.md).
+- [Release information](docs/RELEASE.md) and [licenses](LICENSES.md).
+
+The 68 computational checks cover selected exact identities and explicit metric
+cases. The general Gaussian jet checks and the two concrete Sage metric examples
+are both included. The analytic, topological and categorical proofs remain in
+the paper; these checks are not a formal verification of the whole manuscript.
+
+The previous local paper is available at
+[Hexagon 2611.00123v1](https://hexagonmath.org/2611.00123v1), with its own
+[repository](https://github.com/lioristhmus/projective-twistor-einstein-germs).
+Its mathematical scope and release history remain separate. Any future Lean
+formalization will use a separate repository tied to an exact paper version.
+
+## Verify the downloaded files
+
+```sh
+python3 scripts/validate_release.py
+```
+
+This checks local file hashes, the paper-to-check mapping and the saved execution
+records. It does not run the mathematical jobs. Reproduction commands and their
+resource requirements are documented in `computations/README.md`.
+
+## Citation
+
+Use [CITATION.cff](CITATION.cff) for the paper and
+[computations/CITATION.cff](computations/CITATION.cff) for the checks. The
+version-specific target is [GitHub release v1.0](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0).
+
+**Preparation status:** this v1.0 package has been prepared locally. The GitHub
+repository and Release have not been published by this preparation operation;
+the GitHub URLs above are the intended publication addresses. No DOI has been
+assigned to this global paper package.

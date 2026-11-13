@@ -1,0 +1,162 @@
+{
+  "target_version": "1.0",
+  "target_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+  "equation_numbering": "Printed equation numbers and pages refer to the accompanying manuscript v1.0 PDF. Stable Markdown anchors are retained.",
+  "locators": {
+    "prop:nariai-maximal-einstein-development": {
+      "type": "statement",
+      "heading": "**Proposition 8.1.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 58
+    },
+    "eq:nariai-real-metric": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "M=\\mathbb R\\times S^1\\times S^2,\n\\qquad\ng=\\mathrm dt^2-a^2\\cosh^2(t/a)\\,\\mathrm d\\theta^2-a^2g_{S^2}.",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 71,
+      "rendered_page": 58
+    },
+    "eq:nariai-nonzero-weyl": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "W(v,w)w=-\\frac{\\Lambda}{3}g(w,w)v\\ne0.",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 72,
+      "rendered_page": 58
+    },
+    "thm:nariai-no-hausdorff-whole-sky-carrier": {
+      "type": "statement",
+      "heading": "**Theorem 8.2.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 59
+    },
+    "eq:nariai-endpoint-family": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\begin{aligned}\nk_\\eta&=(a\\cosh\\eta,0,a\\sinh\\eta),\\\\\ny_{1,\\eta}&=x_1\\cosh\\pi+k_\\eta\\sinh\\pi,\\\\\nk_\\eta'&=x_1\\sinh\\pi+k_\\eta\\cosh\\pi,\n\\qquad y_\\eta=(y_{1,\\eta},-x_2).\n\\end{aligned}",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 75,
+      "rendered_page": 59
+    },
+    "eq:nariai-antipodal-null-geodesics": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\gamma_{\\eta,z}(s)=\n\\bigl(x_1\\cosh s+k_\\eta\\sinh s,\n      x_2\\cos s+u(z)\\sin s\\bigr),\n\\qquad 0\\le s\\le\\pi,",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 76,
+      "rendered_page": 59
+    },
+    "eq:nariai-compact-direction-conics": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\begin{aligned}\n\\alpha_\\eta([S:T])&=\n \\bigl(x,[2STk_\\eta,v(S,T)]\\bigr),\\\\\n\\beta_\\eta([S:T])&=\n \\bigl(y_\\eta,[2STk_\\eta',-v(S,T)]\\bigr).\n\\end{aligned}",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 77,
+      "rendered_page": 60
+    },
+    "prop:nariai-proper-leaves-nonclosed-relation": {
+      "type": "statement",
+      "heading": "**Proposition 8.3.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 60
+    },
+    "eq:nariai-nonclosed-sequence": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "k_{1,r}=\\frac a2(1+r^2,0,1-r^2),\n\\qquad k_{2,r}=ru_2,\n\\qquad s_r=2\\pi i/r.",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 80,
+      "rendered_page": 61
+    },
+    "lem:real-ray-affine-tractor": {
+      "type": "statement",
+      "heading": "**Lemma 3.3.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 16
+    },
+    "eq:real-ray-canonical-tractor": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\begin{aligned}\nH((\\sigma,\\mu,\\rho),(\\sigma',\\mu',\\rho'))\n &=\\sigma\\rho'+\\rho\\sigma'+g(\\mu,\\mu'),\\\\\nD_v(\\sigma,\\mu,\\rho)\n &=\\bigl(v\\sigma-g(v,\\mu),\\,\n       \\nabla_v\\mu+((\\Lambda/6)\\sigma+\\rho)v,\\,\n       v\\rho-(\\Lambda/6)g(v,\\mu)\\bigr),\\\\\n\\mathsf X&=(0,0,1),\\qquad\n\\mathsf I=(1,0,-\\Lambda/6).\n\\end{aligned}",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 19,
+      "rendered_page": 16
+    },
+    "eq:real-ray-tractor-identities": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\begin{aligned}\nH(\\mathsf I,\\mathsf I)&=-\\Lambda/3,&\nH(\\mathsf I,\\mathsf X)&=1,&H(\\mathsf X,\\mathsf X)&=0,\\\\\nD_v\\Theta(w)\n &=\\Theta(\\nabla_vw)-g(v,w)\\mathsf I\n                 -(\\Lambda/3)g(v,w)\\mathsf X.\n\\end{aligned}",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 20,
+      "rendered_page": 16
+    },
+    "prop:ordinary-analytic-cauchy-collar-v08": {
+      "type": "statement",
+      "heading": "**Proposition A.2.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 65
+    },
+    "eq:ordinary-analytic-constraint-propagation-v08": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\partial_tH=2\\nabla^iM_i-2\\tau H,\n\\qquad\n\\partial_tM_i=\\tfrac12\\partial_iH-\\tau M_i.",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 88,
+      "rendered_page": 66
+    },
+    "eq:independent-ray-middle-curvature": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "(v,w,u)\\longmapsto\n\\Theta^{-1}\\operatorname{pr}_{W}F^D(v,w)\\Theta(u)",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 11,
+      "rendered_page": 9
+    },
+    "eq:nariai-complex-null-geodesic": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\gamma(s)=\n\\bigl(x_1\\cosh(rs)+r^{-1}k_1\\sinh(rs),\n      x_2\\cos(rs)+r^{-1}k_2\\sin(rs)\\bigr).",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 79,
+      "rendered_page": 60
+    },
+    "prop:nariai-restricted-quotient-v08": {
+      "type": "statement",
+      "heading": "**Proposition 8.4.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 61
+    },
+    "prop:global-local-twistor-monodromy": {
+      "type": "statement",
+      "heading": "**Proposition 6.1.**",
+      "unchanged_anchor_from_v091": true,
+      "rendered_page": 47
+    },
+    "eq:global-infinity-pair-normalization": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "I_{\\alpha\\beta}I^{\\beta\\gamma}\n=c\\,\\delta_\\alpha{}^\\gamma,\n\\qquad\n2\\operatorname{Pf}(I_{\\mathrm{cov}})=-\\Lambda/3.",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 58,
+      "rendered_page": 47
+    },
+    "eq:ordinary-analytic-gaussian-evolution-v08": {
+      "type": "equation",
+      "display_number": null,
+      "formula": "\\partial_t h_t=2K_t,\n\\qquad\n\\partial_tK_t=-\\operatorname{Ric}(h_t)\n -(\\operatorname{tr}_{h_t}K_t)K_t\n +2K_th_t^{-1}K_t+\\lambda h_t,\n\\qquad (h_0,K_0)=(h,K).",
+      "unchanged_from_v091": true,
+      "rendered_equation_number": 87,
+      "rendered_page": 65
+    }
+  },
+  "rendered_reference": {
+    "version": "1.0",
+    "md_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "tex_sha256": "6344e106cc70163176fdd7e8def059c75adac84950830670a91264bade8108af",
+    "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+    "pdf_path": "../paper/manuscript.pdf",
+    "pdf_supplied_separately": false
+  },
+  "target_path": "../paper/manuscript.md"
+}

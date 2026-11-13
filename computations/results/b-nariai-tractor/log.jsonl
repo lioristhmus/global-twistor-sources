@@ -1,0 +1,13 @@
+{"cgroup": {"cpu.max": "100000 100000", "memory.max": "1999998976", "memory.swap.max": "0", "pids.max": "32"}, "interface_flags": {"erspan0": 4098, "gre0": 128, "gretap0": 4098, "ip6_vti0": 128, "ip6gre0": 128, "ip6tnl0": 128, "ip_vti0": 128, "lo": 9, "sit0": 128, "tunl0": 128}, "ipv4_route_rows": 0, "ipv6_only_loopback": true, "record": "preflight"}
+{"id": "G-B-S01", "info": "", "record": "check", "status": "PASS", "title": "Nariai Ric = Lambda g with Lambda=-a^-2 (Sage Ricci = tr(a->R(a,b)c))"}
+{"id": "G-B-S02", "info": "", "record": "check", "status": "PASS", "title": "Nariai scalar curvature = 4 Lambda"}
+{"id": "G-B-S03", "info": "[-1/3, 0, 0, 0]", "record": "check", "status": "PASS", "title": "Weyl: W(d_t,d_vt)d_vt = -(Lambda/3) g(w,w) d_t = -1/3 d_t"}
+{"id": "G-B-S04", "info": "", "record": "check", "status": "PASS", "title": "Weyl tensor nonzero"}
+{"id": "G-B-S05", "info": "", "record": "check", "status": "PASS", "title": "tractor D preserves H (d_i H - w_i^T H - H w_i = 0)"}
+{"id": "G-B-S06", "info": "", "record": "check", "status": "PASS", "title": "D I = 0"}
+{"id": "G-B-S07", "info": "", "record": "check", "status": "PASS", "title": "H(I,I)=-Lambda/3, H(I,X)=1, H(X,X)=0"}
+{"id": "G-B-S08", "info": "", "record": "check", "status": "PASS", "title": "D_v Theta(w) = Theta(nabla_v w) - g(v,w) I - (Lambda/3) g(v,w) X (Lemma 3.3)"}
+{"id": "G-B-S09", "info": "", "record": "check", "status": "PASS", "title": "tractor curvature kills X (F^D X = 0)"}
+{"id": "G-B-S10", "info": "", "record": "check", "status": "PASS", "title": "tractor curvature = Weyl in middle block, 0 elsewhere (normality)"}
+{"id": "G-B-S11", "info": "", "record": "check", "status": "PASS", "title": "Ricci contraction of Theta^-1 pr_W F Theta vanishes (Prop 2.2 admission)"}
+{"error": null, "expected_count": 11, "failed": [], "job": "b-nariai-tractor", "metrics": {"cpu.stat": "usage_usec 8513948\nuser_usec 8032777\nsystem_usec 481171\nnice_usec 0\nnr_periods 86\nnr_throttled 65\nthrottled_usec 1083503\nnr_bursts 0\nburst_usec 0", "memory.peak": "334032896", "pids.peak": "18"}, "missing": [], "observed_count": 11, "record": "summary", "status": "PASS", "versions": {"machine": "x86_64", "platform": "Linux", "python": "3.12.3", "sage": "10.9", "sympy": "1.14.0"}, "worker_seconds": 7.716}

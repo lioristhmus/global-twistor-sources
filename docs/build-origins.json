@@ -1,0 +1,44 @@
+{
+  "common/styles/pandoc-arxiv-ams-en.yaml": {
+    "upstream_sha256": "fd694176042e456e648919b22e4dbe9b481a809236b734f7b22fb3c057c66998"
+  },
+  "common/styles/pandoc-promote-topmatter.lua": {
+    "upstream_sha256": "1be82694e3d9d5a12b9304aaf5221d067132b12cec3b579c13bf2650340b57ab"
+  },
+  "common/styles/pandoc-unnumber-abstract-equations.lua": {
+    "upstream_sha256": "5eff716cdec9b81443777695e7d8fdc4bb0360ba3e21cb9439af3d885385c718"
+  },
+  "common/styles/pandoc-pdftex-check.lua": {
+    "upstream_sha256": "2eb2237e41f5e9be642a078e287f6704e0f4b493c69e0152f18dba2271b8ff7c"
+  },
+  "common/styles/pandoc-statement-headings.lua": {
+    "upstream_sha256": "3f0f8015b6713fbf42806e6418b83e88362aad08ca89f0cafc63e6462bc2c22b"
+  },
+  "common/styles/pandoc-join-display-paragraphs.lua": {
+    "upstream_sha256": "872f887524855da748659625c0041332fa31df01435ee1c6cc9482a8a39b3639"
+  },
+  "common/styles/pandoc-manual-reference-anchors.lua": {
+    "upstream_sha256": "8405e9d7f93d5b50b1c5f1ac7290bb98ab687857b78b366c5a715e9ec8913bfe"
+  },
+  "common/styles/pandoc-bibliography-heading.lua": {
+    "upstream_sha256": "ebd65c0d13d925250194089f410c95441ee78d6749ce1417f051b69b46196739"
+  },
+  "common/styles/arxiv-preamble.tex": {
+    "upstream_sha256": "187db65e1466eca67a5a1c241758ae52952f3ef49c0815909adbfb0cf947bcfa"
+  },
+  "common/styles/ams-statement-headings.tex": {
+    "upstream_sha256": "c4b970021df0e6a96d207599964fc3931e6c3899b63854d728c13ad39b75e716"
+  },
+  "common/styles/ams-abstract-heading.tex": {
+    "upstream_sha256": "f46d79948d8d97e3732c30a1a04b440b121bf2cd3993d934261267bb466167e2"
+  },
+  "common/styles/macros.tex": {
+    "upstream_sha256": "9a8334605a62112fff0692691dacb2f92b656b11e052d84ae95cc56811fddaa4"
+  },
+  "scripts/export_markdown.sh": {
+    "upstream_sha256": "59a8c7004ecb7736cc312e220cf04e91316d233ca6f475e9951ef7ac7467e355"
+  },
+  "scripts/prepare_paper_tex.py": {
+    "upstream_sha256": "f81bc8f3a60171d6caa14cb914d82798b6316ea62e8afae3b16c2f8d2c4b33fd"
+  }
+}

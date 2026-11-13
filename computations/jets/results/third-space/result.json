@@ -1,0 +1,59 @@
+{
+  "job": "third-space",
+  "status": "PASS",
+  "client_exit_code": 0,
+  "checks": [
+    {
+      "id": "GG-THIRD-SPACE-1",
+      "info": "",
+      "record": "check",
+      "scope": "all 204 metric derivatives independent modulo metric/partial symmetries",
+      "status": "PASS",
+      "title": "Direct spatial contracted Bianchi, component 1"
+    },
+    {
+      "id": "GG-THIRD-SPACE-2",
+      "info": "",
+      "record": "check",
+      "scope": "all 204 metric derivatives independent modulo metric/partial symmetries",
+      "status": "PASS",
+      "title": "Direct spatial contracted Bianchi, component 2"
+    },
+    {
+      "id": "GG-THIRD-SPACE-3",
+      "info": "",
+      "record": "check",
+      "scope": "all 204 metric derivatives independent modulo metric/partial symmetries",
+      "status": "PASS",
+      "title": "Direct spatial contracted Bianchi, component 3"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 3,
+    "failed": [],
+    "job": "third-space",
+    "metrics": {
+      "cpu.stat": "usage_usec 2563927\nuser_usec 2439737\nsystem_usec 124190\nnice_usec 0\nnr_periods 26\nnr_throttled 13\nthrottled_usec 55690\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "73785344",
+      "pids.peak": "7"
+    },
+    "missing": [],
+    "observed_count": 3,
+    "record": "summary",
+    "status": "PASS",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 1.581
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "be6fba64db9a1874af02a0b1fab9217bdd3457c0ee4fcd7b94ba27daf5042d2d",
+  "error": null
+}

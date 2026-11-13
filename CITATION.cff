@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the paper using the preferred citation below."
+title: "Global twistor sources for analytic Einstein spacetimes"
+type: dataset
+authors:
+  - given-names: Lior
+    family-names: Isthmus
+    orcid: "https://orcid.org/0009-0004-7908-9876"
+version: "1.0"
+url: "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0"
+repository-code: "https://github.com/lioristhmus/global-twistor-sources"
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+keywords:
+  - twistor theory
+  - analytic Einstein spacetimes
+  - null monodromy
+  - Nariai spacetime
+preferred-citation:
+  type: unpublished
+  title: "Global twistor sources for analytic Einstein spacetimes"
+  authors:
+    - given-names: Lior
+      family-names: Isthmus
+      orcid: "https://orcid.org/0009-0004-7908-9876"
+  year: 2026
+  version: "1.0"
+  url: "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0"

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "paper_hashes": {
+    "md": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "tex": "6344e106cc70163176fdd7e8def059c75adac84950830670a91264bade8108af",
+    "pdf": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38"
+  },
+  "preserved_base_version": "0.9.8-draft",
+  "preserved_base_md_sha256": "559a830c073a079dac2ce8650c2c01779711cf58e3302805065e7ae35d5be0c7",
+  "math_ast_count": 1233,
+  "math_ast_exact": true,
+  "generated_tex_math_count": 1233,
+  "generated_tex_math_exact": true,
+  "numbered_statement_headings": 62,
+  "statement_headings_exact": true,
+  "source_anchor_count": 195,
+  "source_anchors_exact": true,
+  "numbered_equations": 90,
+  "equation_numbers_exact": true,
+  "body_changes": "Computational-supplement bibliography entry only; release metadata separately updated.",
+  "saved_check_count": 68,
+  "saved_check_code_input_output_unchanged": true,
+  "unchanged_rc2_files": 62,
+  "false_check_probes_retained": 2,
+  "pdf_pages": 71,
+  "pdf_internal_links_verified": 183,
+  "email_and_release_pdf_links_verified": true,
+  "underfull_warning_lines": 11,
+  "visual_review_completed": true,
+  "mathematical_jobs_started": 0,
+  "scope": "Release regression and recorded-output integrity checks; not an independent mathematical proof audit.",
+  "all_page_overview_reviewed": true,
+  "readable_pages_reviewed": [
+    1,
+    31,
+    37,
+    42,
+    45,
+    46,
+    49,
+    65,
+    70,
+    71
+  ],
+  "visible_defects_found": [],
+  "standalone_tex_build": {
+    "status": "PASS",
+    "passes": 3,
+    "external_source_files_required": false
+  }
+}

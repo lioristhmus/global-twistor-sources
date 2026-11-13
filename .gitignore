@@ -1,0 +1,14 @@
+# Generated working files; published artifacts are explicitly tracked.
+.DS_Store
+__pycache__/
+*.pyc
+tmp/
+build/
+computations/reproduced/
+computations/jets/reproduced/
+*.aux
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

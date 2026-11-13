@@ -1,0 +1,48 @@
+{
+  "general-jet": {
+    "module": "jet_gaussian",
+    "function": "run",
+    "check_ids": [
+      "GG-JET-K",
+      "GG-JET-RIJ",
+      "GG-JET-R00",
+      "GG-JET-R0I",
+      "GG-JET-CONSTRAINT",
+      "GG-BIANCHI-TIME",
+      "GG-BIANCHI-SPACE"
+    ],
+    "jet_order": 2,
+    "dependencies": [
+      "code/jet_gaussian.py",
+      "code/domain_checks.py"
+    ]
+  },
+  "third-time": {
+    "module": "third_gaussian",
+    "function": "time_component",
+    "check_ids": [
+      "GG-THIRD-TIME"
+    ],
+    "jet_order": 3,
+    "dependencies": [
+      "code/jet_gaussian.py",
+      "code/domain_checks.py",
+      "code/third_gaussian.py"
+    ]
+  },
+  "third-space": {
+    "module": "third_gaussian",
+    "function": "space_components",
+    "check_ids": [
+      "GG-THIRD-SPACE-1",
+      "GG-THIRD-SPACE-2",
+      "GG-THIRD-SPACE-3"
+    ],
+    "jet_order": 3,
+    "dependencies": [
+      "code/jet_gaussian.py",
+      "code/domain_checks.py",
+      "code/third_gaussian.py"
+    ]
+  }
+}

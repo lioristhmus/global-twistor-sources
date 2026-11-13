@@ -1,0 +1,3085 @@
+[
+  {
+    "id": "G-A-N01",
+    "job": "a-nariai",
+    "implementation": "code/a_nariai.py",
+    "function": "nariai",
+    "title": "Nariai coordinate Ricci and mixed Weyl",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.1",
+    "anchors": [
+      "prop:nariai-maximal-einstein-development",
+      "eq:nariai-real-metric",
+      "eq:nariai-nonzero-weyl"
+    ],
+    "input": "nariai-real",
+    "kind": "Symbolic identity on a specified metric",
+    "scope": "All 16 Ricci entries and one mixed Weyl entry on a regular coordinate chart.",
+    "expected": "Ric+g/a^2=0 (all 16 entries); the specified mixed Weyl entry is -1/3.",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/a-nariai/log.jsonl",
+      "id": "G-A-N01",
+      "log_sha256": "c48fa9e73d9a97be9b334f99ae405c860e2528e9163b3022626a3ad54d7910c5"
+    },
+    "result_summary": "results/a-nariai/result.json",
+    "function_line": 12,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-real-metric",
+          "number": 71,
+          "page": 58
+        },
+        {
+          "anchor": "eq:nariai-nonzero-weyl",
+          "number": 72,
+          "page": 58
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-A-N02",
+    "job": "a-nariai",
+    "implementation": "code/a_nariai.py",
+    "function": "nariai",
+    "title": "Nariai quadric, geodesic, conic and kernel-contradiction formulas",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "thm:nariai-no-hausdorff-whole-sky-carrier",
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Symbolic identities and algebraic nonvanishing reduction",
+    "scope": "Quadric, tangency, null, geodesic, antipodal second endpoint, conic, and transverse derivative formulas. Nonvanishing uses a>0 and sinh(pi)>0; topology is not checked.",
+    "expected": "All specified quadric/geodesic/conic residuals zero; v=0 implies S=T=0; transverse derivative=(0,0,a*sinh(pi)).",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/a-nariai/log.jsonl",
+      "id": "G-A-N02",
+      "log_sha256": "c48fa9e73d9a97be9b334f99ae405c860e2528e9163b3022626a3ad54d7910c5"
+    },
+    "result_summary": "results/a-nariai/result.json",
+    "function_line": 12,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-A-N03",
+    "job": "a-nariai",
+    "implementation": "code/a_nariai.py",
+    "function": "nariai",
+    "title": "Nariai nonclosed-relation sequence formulas",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "prop:nariai-proper-leaves-nonclosed-relation",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Symbolic identities on specified input",
+    "scope": "Initial energy and distinct limiting second endpoint on its quadric. No return-time or topological proof in this implementation.",
+    "expected": "H1(k1r,k1r)=a^2*r^2; y2 lies on Q2 and y2 differs from x2.",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/a-nariai/log.jsonl",
+      "id": "G-A-N03",
+      "log_sha256": "c48fa9e73d9a97be9b334f99ae405c860e2528e9163b3022626a3ad54d7910c5"
+    },
+    "result_summary": "results/a-nariai/result.json",
+    "function_line": 12,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-A-T01",
+    "job": "a-tractor",
+    "implementation": "code/a_tractor.py",
+    "function": "tractor",
+    "title": "Tractor metric, scale, solder and null-affine identities",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3",
+    "anchors": [
+      "lem:real-ray-affine-tractor",
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities"
+    ],
+    "input": "tractor-general",
+    "kind": "Polynomial symbolic identity",
+    "scope": "Parallel-frame rank-six algebra for arbitrary Lambda, v, w; algebraic null-affine specialization. No curved-space derivatives are taken here.",
+    "expected": "A^T H+H A=0; AI=0; H(I,I)=-Lambda/3; solder identities and null-affine residual zero.",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/a-tractor/log.jsonl",
+      "id": "G-A-T01",
+      "log_sha256": "ada6029dec2d246c05a6f47d343681da2e146f91eacac3eb5a4676c52da608d4"
+    },
+    "result_summary": "results/a-tractor/result.json",
+    "function_line": 14,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-A-C01",
+    "job": "a-bianchi",
+    "implementation": "code/a_bianchi.py",
+    "function": "bianchi",
+    "title": "Global Appendix A constraint propagation",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "input": "bianchi-normal",
+    "kind": "Polynomial symbolic identity",
+    "scope": "Contracted-Bianchi algebra in a spatial-normal frame with arbitrary symmetric K and E_ij=0; does not construct a Cauchy development.",
+    "expected": "The four computed divergence components equal their displayed spatial-normal expressions; the known contracted Bianchi identity gives the paper propagation equations.",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/a-bianchi/log.jsonl",
+      "id": "G-A-C01",
+      "log_sha256": "dd83e713f03484ff17a3fe5df7ec63ccd81229503f559a737334d474f93317c0"
+    },
+    "result_summary": "results/a-bianchi/result.json",
+    "function_line": 16,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S01",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "Nariai Ric = Lambda g with Lambda=-a^-2 (Sage Ricci = tr(a->R(a,b)c))",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.1",
+    "anchors": [
+      "prop:nariai-maximal-einstein-development",
+      "eq:nariai-real-metric",
+      "eq:nariai-nonzero-weyl"
+    ],
+    "input": "nariai-real",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified real Nariai metric, all relevant coordinate components. The nonzero test uses the exactly checked component -1/3.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S01",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-real-metric",
+          "number": 71,
+          "page": 58
+        },
+        {
+          "anchor": "eq:nariai-nonzero-weyl",
+          "number": 72,
+          "page": 58
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S02",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "Nariai scalar curvature = 4 Lambda",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.1",
+    "anchors": [
+      "prop:nariai-maximal-einstein-development",
+      "eq:nariai-real-metric",
+      "eq:nariai-nonzero-weyl"
+    ],
+    "input": "nariai-real",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified real Nariai metric, all relevant coordinate components. The nonzero test uses the exactly checked component -1/3.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S02",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-real-metric",
+          "number": 71,
+          "page": 58
+        },
+        {
+          "anchor": "eq:nariai-nonzero-weyl",
+          "number": 72,
+          "page": 58
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S03",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "Weyl: W(d_t,d_vt)d_vt = -(Lambda/3) g(w,w) d_t = -1/3 d_t",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.1",
+    "anchors": [
+      "prop:nariai-maximal-einstein-development",
+      "eq:nariai-real-metric",
+      "eq:nariai-nonzero-weyl"
+    ],
+    "input": "nariai-real",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified real Nariai metric, all relevant coordinate components. The nonzero test uses the exactly checked component -1/3.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S03",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-real-metric",
+          "number": 71,
+          "page": 58
+        },
+        {
+          "anchor": "eq:nariai-nonzero-weyl",
+          "number": 72,
+          "page": 58
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S04",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "Weyl tensor nonzero",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.1",
+    "anchors": [
+      "prop:nariai-maximal-einstein-development",
+      "eq:nariai-real-metric",
+      "eq:nariai-nonzero-weyl"
+    ],
+    "input": "nariai-real",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified real Nariai metric, all relevant coordinate components. The nonzero test uses the exactly checked component -1/3.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S04",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-real-metric",
+          "number": 71,
+          "page": 58
+        },
+        {
+          "anchor": "eq:nariai-nonzero-weyl",
+          "number": 72,
+          "page": 58
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S05",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "tractor D preserves H (d_i H - w_i^T H - H w_i = 0)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S05",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S06",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "D I = 0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S06",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S07",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "H(I,I)=-Lambda/3, H(I,X)=1, H(X,X)=0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S07",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S08",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "D_v Theta(w) = Theta(nabla_v w) - g(v,w) I - (Lambda/3) g(v,w) X (Lemma 3.3)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S08",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S09",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "tractor curvature kills X (F^D X = 0)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S09",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S10",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "tractor curvature = Weyl in middle block, 0 elsewhere (normality)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S10",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S11",
+    "job": "b-nariai-tractor",
+    "implementation": "code/b_nariai_tractor.py",
+    "function": "nariai_tractor",
+    "title": "Ricci contraction of Theta^-1 pr_W F Theta vanishes (Prop 2.2 admission)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Lemma 3.3 and Proposition 2.2",
+    "anchors": [
+      "eq:real-ray-canonical-tractor",
+      "eq:real-ray-tractor-identities",
+      "eq:independent-ray-middle-curvature"
+    ],
+    "input": "tractor-nariai",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Full coordinate normal tractor connection on the specified Nariai metric; includes all six curvature pairs and the middle Ricci contraction. Not general independent recognition.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-nariai-tractor/log.jsonl",
+      "id": "G-B-S11",
+      "log_sha256": "e06667999d7bee25abfc86ddc48079133f6ed412a9887ee7629fe15c02152f2c"
+    },
+    "result_summary": "results/b-nariai-tractor/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:real-ray-canonical-tractor",
+          "number": 19,
+          "page": 16
+        },
+        {
+          "anchor": "eq:real-ray-tractor-identities",
+          "number": 20,
+          "page": 16
+        },
+        {
+          "anchor": "eq:independent-ray-middle-curvature",
+          "number": 11,
+          "page": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S12",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "x1 in Q1, x2 in Q2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S12",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S13",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "H1(k,k)=a^2, H1(x1,k)=0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S13",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S14",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "H2(u,u)=-a^2, H2(x2,u)=0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S14",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S15",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "u(z) real for |z|=1",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S15",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S16",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "gamma stays on Q1 x Q2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S16",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S17",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "gamma tangent to quadrics",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S17",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S18",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "gamma null",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S18",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S19",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "gamma geodesic: x_i''=(eps_i/a^2)x_i",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S19",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S20",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "endpoint at s=pi is (y1,-x2) with velocity (k',-u)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S20",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S21",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "2ST*u(S/T) = v(S,T)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S21",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S22",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "conic alpha: H1(2STk,2STk)=4a^2S^2T^2, H2(v,v)=-4a^2S^2T^2 (null)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S22",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S23",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "conic alpha tangent at x; conic beta tangent at y",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S23",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S24",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "v(S,T)=0 only at S=T=0 (radical of (S^2+T^2,S^2-T^2) is (S,T))",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact algebraic ideal computation",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S24",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S25",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "[1:0]: v(1,0)=v_+, null and tangent at x2 and at -x2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S25",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S26",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "leaf through (y,[0,v_+]) stays in Q2 with constant first factor (eps=0 line)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S26",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S27",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "dp(w) = (a sinh(pi) e_3, 0) != 0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S27",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S28",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "dp(w) not in C*(0,v_+): rank 2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Theorem 8.2",
+    "anchors": [
+      "eq:nariai-endpoint-family",
+      "eq:nariai-antipodal-null-geodesics",
+      "eq:nariai-compact-direction-conics"
+    ],
+    "input": "nariai-conics",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Specified quadric/geodesic/conic formulas. Algebraic nonvanishing and the transverse derivative use the declared a>0 side condition; no Hausdorff obstruction is proved by CAS.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S28",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-endpoint-family",
+          "number": 75,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-antipodal-null-geodesics",
+          "number": 76,
+          "page": 59
+        },
+        {
+          "anchor": "eq:nariai-compact-direction-conics",
+          "number": 77,
+          "page": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S29",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "k1 tangent at x1 with H1(k1,k1)=a^2 r^2; k2=r u2 tangent at x2; null",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "eq:nariai-complex-null-geodesic",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Symbolic r-dependent null-geodesic and return-time formulas, limiting direction and distinct second endpoint. The unrelated-leaf and nonclosedness arguments remain mathematical proofs.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S29",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-complex-null-geodesic",
+          "number": 79,
+          "page": 60
+        },
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S30",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "general solution is a null geodesic on Q1 x Q2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "eq:nariai-complex-null-geodesic",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Symbolic r-dependent null-geodesic and return-time formulas, limiting direction and distinct second endpoint. The unrelated-leaf and nonclosedness arguments remain mathematical proofs.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S30",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-complex-null-geodesic",
+          "number": 79,
+          "page": 60
+        },
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S31",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "at s_r: first factor and tangent return to (x1,k1)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "eq:nariai-complex-null-geodesic",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Symbolic r-dependent null-geodesic and return-time formulas, limiting direction and distinct second endpoint. The unrelated-leaf and nonclosedness arguments remain mathematical proofs.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S31",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-complex-null-geodesic",
+          "number": 79,
+          "page": 60
+        },
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S32",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "at s_r: second factor = x2 cosh 2pi + i u2 sinh 2pi, tangent r(u2 cosh2pi - i x2 sinh 2pi)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "eq:nariai-complex-null-geodesic",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Symbolic r-dependent null-geodesic and return-time formulas, limiting direction and distinct second endpoint. The unrelated-leaf and nonclosedness arguments remain mathematical proofs.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S32",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-complex-null-geodesic",
+          "number": 79,
+          "page": 60
+        },
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S33",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "limiting second endpoints are distinct: y2 != x2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "eq:nariai-complex-null-geodesic",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Symbolic r-dependent null-geodesic and return-time formulas, limiting direction and distinct second endpoint. The unrelated-leaf and nonclosedness arguments remain mathematical proofs.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S33",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-complex-null-geodesic",
+          "number": 79,
+          "page": 60
+        },
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S34",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "limit direction k1(0) is H1-null (pure first-factor leaf)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.3",
+    "anchors": [
+      "eq:nariai-complex-null-geodesic",
+      "eq:nariai-nonclosed-sequence"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Symbolic r-dependent null-geodesic and return-time formulas, limiting direction and distinct second endpoint. The unrelated-leaf and nonclosedness arguments remain mathematical proofs.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S34",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:nariai-complex-null-geodesic",
+          "number": 79,
+          "page": 60
+        },
+        {
+          "anchor": "eq:nariai-nonclosed-sequence",
+          "number": 80,
+          "page": 61
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S35",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "Prop 8.4: cosh z = -a^-2 H1(x1,y1), cos z = -a^-2 H2(x2,y2)",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 8.4",
+    "anchors": [
+      "prop:nariai-restricted-quotient-v08"
+    ],
+    "input": "nariai-sequence",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Only the two ambient pairing identities in the proof; no classification or quotient assertion.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S35",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": []
+    }
+  },
+  {
+    "id": "G-B-S36",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "I_cov I_contra = c * Id",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 6.1",
+    "anchors": [
+      "prop:global-local-twistor-monodromy",
+      "eq:global-infinity-pair-normalization"
+    ],
+    "input": "infinity-pair",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Product and Pfaffian for symbolic c. Rank test only at c=1 and c=0.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S36",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:global-infinity-pair-normalization",
+          "number": 58,
+          "page": 47
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S37",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "2 Pf(I_cov) = -2c = -Lambda/3 for c=Lambda/6",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 6.1",
+    "anchors": [
+      "prop:global-local-twistor-monodromy",
+      "eq:global-infinity-pair-normalization"
+    ],
+    "input": "infinity-pair",
+    "kind": "Exact symbolic identity on specified input",
+    "scope": "Product and Pfaffian for symbolic c. Rank test only at c=1 and c=0.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S37",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:global-infinity-pair-normalization",
+          "number": 58,
+          "page": 47
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-S38",
+    "job": "b-quadric-infinity",
+    "implementation": "code/b_quadric_infinity.py",
+    "function": "quadric_infinity",
+    "title": "rank 4 at c=1, rank 2 at c=0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition 6.1",
+    "anchors": [
+      "prop:global-local-twistor-monodromy",
+      "eq:global-infinity-pair-normalization"
+    ],
+    "input": "infinity-pair",
+    "kind": "Finite exact parameter cases",
+    "scope": "Product and Pfaffian for symbolic c. Rank test only at c=1 and c=0.",
+    "expected": "rank(I_cov)=4 at c=1, and 2 at c=0 only.",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-quadric-infinity/log.jsonl",
+      "id": "G-B-S38",
+      "log_sha256": "4856ecb358025e07c836c148f98dbd876264d75d6d926c7f68137764f315e64d"
+    },
+    "result_summary": "results/b-quadric-infinity/result.json",
+    "function_line": 20,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:global-infinity-pair-normalization",
+          "number": 58,
+          "page": 47
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D01",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: K(v,w) = ghat(nabla_v d_t, w) = (1/2) d_t h",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D01",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O01",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: K(v,w) = ghat(nabla_v d_t, w) = (1/2) d_t h",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O01",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D02",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: Ric_ij = Ric(h)_ij + d_t K_ij + tau K_ij - 2 K_iq K^q_j",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D02",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "Gaussian Ricci decomposition (unnumbered display in Proposition A.2 proof)",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O02",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: Ric_ij = Ric(h)_ij + d_t K_ij + tau K_ij - 2 K_iq K^q_j",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O02",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "Gaussian Ricci decomposition (unnumbered display in Proposition A.2 proof)",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D03",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: Ric_00 = -d_t tau - |K|^2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D03",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "Gaussian Ricci decomposition (unnumbered display in Proposition A.2 proof)",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O03",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: Ric_00 = -d_t tau - |K|^2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O03",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "Gaussian Ricci decomposition (unnumbered display in Proposition A.2 proof)",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D04",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: Ric_0i = div_h K_i - d_i tau",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D04",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "Gaussian Ricci decomposition (unnumbered display in Proposition A.2 proof)",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O04",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: Ric_0i = div_h K_i - d_i tau",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O04",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "Gaussian Ricci decomposition (unnumbered display in Proposition A.2 proof)",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D05",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: E_00 + h^ij E_ij = Scal(h) + tau^2 - |K|^2 - 2 lam",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D05",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O05",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: E_00 + h^ij E_ij = Scal(h) + tau^2 - |K|^2 - 2 lam",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O05",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D06",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: Bianchi(a): -dH/2 + div M - tau H - de/2 - K^ik E_ik = 0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D06",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O06",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: Bianchi(a): -dH/2 + div M - tau H - de/2 - K^ik E_ik = 0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O06",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-D07",
+    "job": "b-gaussian-d",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "D: Bianchi(b): -dM_i/dt + (div_h S)_i - tau M_i = 0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "input": "gaussian-D",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-d/log.jsonl",
+      "id": "G-B-D07",
+      "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83"
+    },
+    "result_summary": "results/b-gaussian-d/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "G-B-O07",
+    "job": "b-gaussian-o",
+    "implementation": "code/b_gaussian.py",
+    "function": "run_family",
+    "title": "O: Bianchi(b): -dM_i/dt + (div_h S)_i - tau M_i = 0",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "input": "gaussian-O",
+    "kind": "Exact symbolic identity for one explicit polynomial metric",
+    "scope": "One polynomial metric hD or hO as specified in its input profile, with symbolic coordinates and constant lam. Full residual identities are checked before E_ij=0. This does not check an arbitrary-function family.",
+    "expected": "All residuals exactly zero; all stated boolean tests true",
+    "actual_result": {
+      "status": "PASS",
+      "log": "results/b-gaussian-o/log.jsonl",
+      "id": "G-B-O07",
+      "log_sha256": "6a3fd983f8aec03d1614a10aaba92e1e2e34cc98524e76d49d32f8ec7956d6a2"
+    },
+    "result_summary": "results/b-gaussian-o/result.json",
+    "display_locator": "The displayed Gaussian evolution/constraint equations or their trace/Bianchi residuals in Proposition A.2 proof.",
+    "function_line": 21,
+    "runner": "code/run.py",
+    "evidence_origin": "Retained byte-for-byte from rc.1; executed runtime and inputs unchanged",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-JET-K",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Extrinsic curvature from the metric connection",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "General 2jet Gaussian identity; 24 independent first and 60 second derivatives.",
+    "expected": "K_ij = Gamma^j_i0 at h(p)=Id for all 9 components",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-JET-K",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-JET-RIJ",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Complete spatial Gaussian Ricci decomposition",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "General 2jet Gaussian identity; 24 independent first and 60 second derivatives.",
+    "expected": "Ric4_ij - Ric3_ij - Kdot_ij - tau*K_ij + 2*(K*K)_ij = 0 for all 9 components",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-JET-RIJ",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-JET-R00",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Time-time Gaussian Ricci decomposition",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "General 2jet Gaussian identity; 24 independent first and 60 second derivatives.",
+    "expected": "Ric00 + partial_t(tau) + tr(K^2) = 0, including the inverse-metric derivative in partial_t(tau)",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-JET-R00",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-JET-R0I",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Time-space Gaussian Ricci decomposition",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "General 2jet Gaussian identity; 24 independent first and 60 second derivatives.",
+    "expected": "Ric0i - div_h(K)_i + partial_i(tau) = 0 for all 3 components",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-JET-R0I",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-JET-CONSTRAINT",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Hamiltonian trace at arbitrary constant lam",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "General 2jet Gaussian identity; 24 independent first and 60 second derivatives.",
+    "expected": "H+e-Scal(h)-tau^2+tr(K^2)+2*lam = 0",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-JET-CONSTRAINT",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-BIANCHI-TIME",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Time residual rearrangement for arbitrary symmetric E",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "Algebraic rearrangement for 10 independent symmetric residual entries and 40 first derivatives; it does not assert contracted Bianchi for arbitrary E.",
+    "expected": "B0 equals -d_t H/2 + div M - tau H - d_t e/2 - K^ij E_ij; B0 is not assumed zero",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-BIANCHI-TIME",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-BIANCHI-SPACE",
+    "job": "general-jet",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/jet_gaussian.py",
+    "function": "run",
+    "function_line": 56,
+    "title": "Spatial residual rearrangement for arbitrary symmetric E",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "general-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "Algebraic rearrangement for 10 independent symmetric residual entries and 40 first derivatives; it does not assert contracted Bianchi for arbitrary E.",
+    "expected": "Bi equals -d_t M_i + div_h(S)_i - tau M_i for all 3 components",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/general-jet/log.jsonl",
+      "id": "GG-BIANCHI-SPACE",
+      "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c"
+    },
+    "result_summary": "jets/results/general-jet/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-THIRD-TIME",
+    "job": "third-time",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/third_gaussian.py",
+    "function": "time_component",
+    "function_line": 64,
+    "title": "Direct time contracted Bianchi from curvature",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "third-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "Direct Ricci/derivative polynomial identity with all 24 first, 60 second and 120 third metric derivatives, plus constant lam.",
+    "expected": "B0=0 for E=Ric(ghat)-lam*ghat; Ricci is differentiated directly",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/third-time/log.jsonl",
+      "id": "GG-THIRD-TIME",
+      "log_sha256": "43649c8cfc2c98964ba5efe0eb64b8117066abf1086f6fde262b44c08fbad83d"
+    },
+    "result_summary": "jets/results/third-time/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-THIRD-SPACE-1",
+    "job": "third-space",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/third_gaussian.py",
+    "function": "space_components",
+    "function_line": 69,
+    "title": "Direct spatial contracted Bianchi, component 1",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "third-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "Direct Ricci/derivative polynomial identity with all 24 first, 60 second and 120 third metric derivatives, plus constant lam.",
+    "expected": "B1=0 for E=Ric(ghat)-lam*ghat; no propagation equation is substituted",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/third-space/log.jsonl",
+      "id": "GG-THIRD-SPACE-1",
+      "log_sha256": "be6fba64db9a1874af02a0b1fab9217bdd3457c0ee4fcd7b94ba27daf5042d2d"
+    },
+    "result_summary": "jets/results/third-space/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-THIRD-SPACE-2",
+    "job": "third-space",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/third_gaussian.py",
+    "function": "space_components",
+    "function_line": 69,
+    "title": "Direct spatial contracted Bianchi, component 2",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "third-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "Direct Ricci/derivative polynomial identity with all 24 first, 60 second and 120 third metric derivatives, plus constant lam.",
+    "expected": "B2=0 for E=Ric(ghat)-lam*ghat; no propagation equation is substituted",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/third-space/log.jsonl",
+      "id": "GG-THIRD-SPACE-2",
+      "log_sha256": "be6fba64db9a1874af02a0b1fab9217bdd3457c0ee4fcd7b94ba27daf5042d2d"
+    },
+    "result_summary": "jets/results/third-space/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  },
+  {
+    "id": "GG-THIRD-SPACE-3",
+    "job": "third-space",
+    "runner": "jets/code/run.py",
+    "implementation": "jets/code/third_gaussian.py",
+    "function": "space_components",
+    "function_line": 69,
+    "title": "Direct spatial contracted Bianchi, component 3",
+    "manuscript_version": "1.0",
+    "manuscript_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
+    "statement": "Proposition A.2",
+    "anchors": [
+      "prop:ordinary-analytic-cauchy-collar-v08",
+      "eq:ordinary-analytic-gaussian-evolution-v08",
+      "eq:ordinary-analytic-constraint-propagation-v08"
+    ],
+    "display_locator": "Gaussian Ricci decomposition or contracted-Bianchi rearrangement in the proof; Gaussian evolution/propagation displays have the listed anchors.",
+    "input_catalog": "jets/inputs.json",
+    "input": "third-jet",
+    "kind": "Universal rational polynomial identity with the finite-jet reduction of JET-SCOPE.md",
+    "scope": "Direct Ricci/derivative polynomial identity with all 24 first, 60 second and 120 third metric derivatives, plus constant lam.",
+    "expected": "B3=0 for E=Ric(ghat)-lam*ghat; no propagation equation is substituted",
+    "actual_result": {
+      "status": "PASS",
+      "log": "jets/results/third-space/log.jsonl",
+      "id": "GG-THIRD-SPACE-3",
+      "log_sha256": "be6fba64db9a1874af02a0b1fab9217bdd3457c0ee4fcd7b94ba27daf5042d2d"
+    },
+    "result_summary": "jets/results/third-space/result.json",
+    "evidence_origin": "Fresh rc.2 execution after independent source/coordinate review",
+    "rendered_reference": {
+      "version": "1.0",
+      "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+      "equations": [
+        {
+          "anchor": "eq:ordinary-analytic-gaussian-evolution-v08",
+          "number": 87,
+          "page": 65
+        },
+        {
+          "anchor": "eq:ordinary-analytic-constraint-propagation-v08",
+          "number": 88,
+          "page": 66
+        }
+      ]
+    }
+  }
+]

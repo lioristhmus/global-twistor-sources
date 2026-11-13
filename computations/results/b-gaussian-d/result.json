@@ -1,0 +1,84 @@
+{
+  "job": "b-gaussian-d",
+  "status": "PASS",
+  "client_exit_code": 0,
+  "checks": [
+    {
+      "id": "G-B-D01",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: K(v,w) = ghat(nabla_v d_t, w) = (1/2) d_t h"
+    },
+    {
+      "id": "G-B-D02",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: Ric_ij = Ric(h)_ij + d_t K_ij + tau K_ij - 2 K_iq K^q_j"
+    },
+    {
+      "id": "G-B-D03",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: Ric_00 = -d_t tau - |K|^2"
+    },
+    {
+      "id": "G-B-D04",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: Ric_0i = div_h K_i - d_i tau"
+    },
+    {
+      "id": "G-B-D05",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: E_00 + h^ij E_ij = Scal(h) + tau^2 - |K|^2 - 2 lam"
+    },
+    {
+      "id": "G-B-D06",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: Bianchi(a): -dH/2 + div M - tau H - de/2 - K^ik E_ik = 0"
+    },
+    {
+      "id": "G-B-D07",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "D: Bianchi(b): -dM_i/dt + (div_h S)_i - tau M_i = 0"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 7,
+    "failed": [],
+    "job": "b-gaussian-d",
+    "metrics": {
+      "cpu.stat": "usage_usec 5725695\nuser_usec 5378409\nsystem_usec 347286\nnice_usec 0\nnr_periods 57\nnr_throttled 39\nthrottled_usec 529105\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "332599296",
+      "pids.peak": "18"
+    },
+    "missing": [],
+    "observed_count": 7,
+    "record": "summary",
+    "status": "PASS",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 4.914
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "e096a5f50ac74912dbcdb7a0f569d60494a66559c04c2b2bd28aff3d6f68af83",
+  "error": null
+}

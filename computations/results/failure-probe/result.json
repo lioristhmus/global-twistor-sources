@@ -1,0 +1,44 @@
+{
+  "job": "failure-probe",
+  "status": "FAIL",
+  "client_exit_code": 1,
+  "checks": [
+    {
+      "id": "RUNNER-FAILURE-PROBE",
+      "info": "",
+      "record": "check",
+      "status": "FAIL",
+      "title": "Intentional false check: must exit nonzero"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 1,
+    "failed": [
+      "RUNNER-FAILURE-PROBE"
+    ],
+    "job": "failure-probe",
+    "metrics": {
+      "cpu.stat": "usage_usec 877527\nuser_usec 786509\nsystem_usec 91017\nnice_usec 0\nnr_periods 9\nnr_throttled 6\nthrottled_usec 54400\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "30793728",
+      "pids.peak": "7"
+    },
+    "missing": [],
+    "observed_count": 1,
+    "record": "summary",
+    "status": "FAIL",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 0.012
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "b405a8ce69b68f60966325ea2e37f713d33e62cb5a847a4d25bac1bddfd1cf2d",
+  "error": null
+}

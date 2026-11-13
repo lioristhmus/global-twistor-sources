@@ -1,0 +1,103 @@
+{
+  "a-nariai": {
+    "module": "a_nariai",
+    "function": "nariai",
+    "check_ids": [
+      "G-A-N01",
+      "G-A-N02",
+      "G-A-N03"
+    ]
+  },
+  "a-tractor": {
+    "module": "a_tractor",
+    "function": "tractor",
+    "check_ids": [
+      "G-A-T01"
+    ]
+  },
+  "a-bianchi": {
+    "module": "a_bianchi",
+    "function": "bianchi",
+    "check_ids": [
+      "G-A-C01"
+    ]
+  },
+  "b-nariai-tractor": {
+    "module": "b_nariai_tractor",
+    "function": "nariai_tractor",
+    "check_ids": [
+      "G-B-S01",
+      "G-B-S02",
+      "G-B-S03",
+      "G-B-S04",
+      "G-B-S05",
+      "G-B-S06",
+      "G-B-S07",
+      "G-B-S08",
+      "G-B-S09",
+      "G-B-S10",
+      "G-B-S11"
+    ]
+  },
+  "b-quadric-infinity": {
+    "module": "b_quadric_infinity",
+    "function": "quadric_infinity",
+    "check_ids": [
+      "G-B-S12",
+      "G-B-S13",
+      "G-B-S14",
+      "G-B-S15",
+      "G-B-S16",
+      "G-B-S17",
+      "G-B-S18",
+      "G-B-S19",
+      "G-B-S20",
+      "G-B-S21",
+      "G-B-S22",
+      "G-B-S23",
+      "G-B-S24",
+      "G-B-S25",
+      "G-B-S26",
+      "G-B-S27",
+      "G-B-S28",
+      "G-B-S29",
+      "G-B-S30",
+      "G-B-S31",
+      "G-B-S32",
+      "G-B-S33",
+      "G-B-S34",
+      "G-B-S35",
+      "G-B-S36",
+      "G-B-S37",
+      "G-B-S38"
+    ]
+  },
+  "b-gaussian-d": {
+    "module": "b_gaussian",
+    "function": "run_family",
+    "family": "D",
+    "check_ids": [
+      "G-B-D01",
+      "G-B-D02",
+      "G-B-D03",
+      "G-B-D04",
+      "G-B-D05",
+      "G-B-D06",
+      "G-B-D07"
+    ]
+  },
+  "b-gaussian-o": {
+    "module": "b_gaussian",
+    "function": "run_family",
+    "family": "O",
+    "check_ids": [
+      "G-B-O01",
+      "G-B-O02",
+      "G-B-O03",
+      "G-B-O04",
+      "G-B-O05",
+      "G-B-O06",
+      "G-B-O07"
+    ]
+  }
+}

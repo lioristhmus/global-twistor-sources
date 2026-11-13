@@ -1,0 +1,43 @@
+{
+  "job": "a-bianchi",
+  "status": "PASS",
+  "client_exit_code": 0,
+  "checks": [
+    {
+      "id": "G-A-C01",
+      "info": "",
+      "record": "check",
+      "scope": "Universal contracted-Bianchi algebra at an arbitrary spatial-normal point with general symmetric K and residual E_ij=0; yields the two displayed propagation equations",
+      "status": "PASS",
+      "title": "Global Appendix A constraint propagation"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 1,
+    "failed": [],
+    "job": "a-bianchi",
+    "metrics": {
+      "cpu.stat": "usage_usec 1014785\nuser_usec 911705\nsystem_usec 103079\nnice_usec 0\nnr_periods 10\nnr_throttled 8\nthrottled_usec 50118\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "67448832",
+      "pids.peak": "7"
+    },
+    "missing": [],
+    "observed_count": 1,
+    "record": "summary",
+    "status": "PASS",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 0.167
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "dd83e713f03484ff17a3fe5df7ec63ccd81229503f559a737334d474f93317c0",
+  "error": null
+}

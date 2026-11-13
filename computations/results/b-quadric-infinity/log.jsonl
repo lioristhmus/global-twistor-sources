@@ -1,0 +1,29 @@
+{"cgroup": {"cpu.max": "100000 100000", "memory.max": "1999998976", "memory.swap.max": "0", "pids.max": "32"}, "interface_flags": {"erspan0": 4098, "gre0": 128, "gretap0": 4098, "ip6_vti0": 128, "ip6gre0": 128, "ip6tnl0": 128, "ip_vti0": 128, "lo": 9, "sit0": 128, "tunl0": 128}, "ipv4_route_rows": 0, "ipv6_only_loopback": true, "record": "preflight"}
+{"id": "G-B-S12", "info": "", "record": "check", "status": "PASS", "title": "x1 in Q1, x2 in Q2"}
+{"id": "G-B-S13", "info": "", "record": "check", "status": "PASS", "title": "H1(k,k)=a^2, H1(x1,k)=0"}
+{"id": "G-B-S14", "info": "", "record": "check", "status": "PASS", "title": "H2(u,u)=-a^2, H2(x2,u)=0"}
+{"id": "G-B-S15", "info": "", "record": "check", "status": "PASS", "title": "u(z) real for |z|=1"}
+{"id": "G-B-S16", "info": "", "record": "check", "status": "PASS", "title": "gamma stays on Q1 x Q2"}
+{"id": "G-B-S17", "info": "", "record": "check", "status": "PASS", "title": "gamma tangent to quadrics"}
+{"id": "G-B-S18", "info": "", "record": "check", "status": "PASS", "title": "gamma null"}
+{"id": "G-B-S19", "info": "", "record": "check", "status": "PASS", "title": "gamma geodesic: x_i''=(eps_i/a^2)x_i"}
+{"id": "G-B-S20", "info": "", "record": "check", "status": "PASS", "title": "endpoint at s=pi is (y1,-x2) with velocity (k',-u)"}
+{"id": "G-B-S21", "info": "", "record": "check", "status": "PASS", "title": "2ST*u(S/T) = v(S,T)"}
+{"id": "G-B-S22", "info": "", "record": "check", "status": "PASS", "title": "conic alpha: H1(2STk,2STk)=4a^2S^2T^2, H2(v,v)=-4a^2S^2T^2 (null)"}
+{"id": "G-B-S23", "info": "", "record": "check", "status": "PASS", "title": "conic alpha tangent at x; conic beta tangent at y"}
+{"id": "G-B-S24", "info": "", "record": "check", "status": "PASS", "title": "v(S,T)=0 only at S=T=0 (radical of (S^2+T^2,S^2-T^2) is (S,T))"}
+{"id": "G-B-S25", "info": "", "record": "check", "status": "PASS", "title": "[1:0]: v(1,0)=v_+, null and tangent at x2 and at -x2"}
+{"id": "G-B-S26", "info": "", "record": "check", "status": "PASS", "title": "leaf through (y,[0,v_+]) stays in Q2 with constant first factor (eps=0 line)"}
+{"id": "G-B-S27", "info": "", "record": "check", "status": "PASS", "title": "dp(w) = (a sinh(pi) e_3, 0) != 0"}
+{"id": "G-B-S28", "info": "", "record": "check", "status": "PASS", "title": "dp(w) not in C*(0,v_+): rank 2"}
+{"id": "G-B-S29", "info": "", "record": "check", "status": "PASS", "title": "k1 tangent at x1 with H1(k1,k1)=a^2 r^2; k2=r u2 tangent at x2; null"}
+{"id": "G-B-S30", "info": "", "record": "check", "status": "PASS", "title": "general solution is a null geodesic on Q1 x Q2"}
+{"id": "G-B-S31", "info": "", "record": "check", "status": "PASS", "title": "at s_r: first factor and tangent return to (x1,k1)"}
+{"id": "G-B-S32", "info": "", "record": "check", "status": "PASS", "title": "at s_r: second factor = x2 cosh 2pi + i u2 sinh 2pi, tangent r(u2 cosh2pi - i x2 sinh 2pi)"}
+{"id": "G-B-S33", "info": "", "record": "check", "status": "PASS", "title": "limiting second endpoints are distinct: y2 != x2"}
+{"id": "G-B-S34", "info": "", "record": "check", "status": "PASS", "title": "limit direction k1(0) is H1-null (pure first-factor leaf)"}
+{"id": "G-B-S35", "info": "", "record": "check", "status": "PASS", "title": "Prop 8.4: cosh z = -a^-2 H1(x1,y1), cos z = -a^-2 H2(x2,y2)"}
+{"id": "G-B-S36", "info": "", "record": "check", "status": "PASS", "title": "I_cov I_contra = c * Id"}
+{"id": "G-B-S37", "info": "", "record": "check", "status": "PASS", "title": "2 Pf(I_cov) = -2c = -Lambda/3 for c=Lambda/6"}
+{"id": "G-B-S38", "info": "", "record": "check", "status": "PASS", "title": "rank 4 at c=1, rank 2 at c=0"}
+{"error": null, "expected_count": 27, "failed": [], "job": "b-quadric-infinity", "metrics": {"cpu.stat": "usage_usec 8182692\nuser_usec 7728654\nsystem_usec 454037\nnice_usec 0\nnr_periods 83\nnr_throttled 58\nthrottled_usec 1131353\nnr_bursts 0\nburst_usec 0", "memory.peak": "302067712", "pids.peak": "18"}, "missing": [], "observed_count": 27, "record": "summary", "status": "PASS", "versions": {"machine": "x86_64", "platform": "Linux", "python": "3.12.3", "sage": "10.9", "sympy": "1.14.0"}, "worker_seconds": 7.355}

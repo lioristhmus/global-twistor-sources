@@ -1,0 +1,43 @@
+{
+  "job": "a-tractor",
+  "status": "PASS",
+  "client_exit_code": 0,
+  "checks": [
+    {
+      "id": "G-A-T01",
+      "info": "",
+      "record": "check",
+      "scope": "Universal algebraic identities in a parallel frame; D_k^2 X vanishes for affine null k, including Lambda=0",
+      "status": "PASS",
+      "title": "Tractor metric, scale, solder and null-affine identities"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 1,
+    "failed": [],
+    "job": "a-tractor",
+    "metrics": {
+      "cpu.stat": "usage_usec 1082392\nuser_usec 980543\nsystem_usec 101848\nnice_usec 0\nnr_periods 11\nnr_throttled 6\nthrottled_usec 42970\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "67858432",
+      "pids.peak": "7"
+    },
+    "missing": [],
+    "observed_count": 1,
+    "record": "summary",
+    "status": "PASS",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 0.185
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "ada6029dec2d246c05a6f47d343681da2e146f91eacac3eb5a4676c52da608d4",
+  "error": null
+}

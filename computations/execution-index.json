@@ -1,0 +1,175 @@
+{
+  "rc1_zip_sha256": "3d159bd481228862f8d51fedf49e0bb4d19146648c8bd27f2f2cf7cbfd528808",
+  "jobs": [
+    {
+      "job": "a-nariai",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/a-nariai",
+      "check_ids": [
+        "G-A-N01",
+        "G-A-N02",
+        "G-A-N03"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "a-tractor",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/a-tractor",
+      "check_ids": [
+        "G-A-T01"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "a-bianchi",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/a-bianchi",
+      "check_ids": [
+        "G-A-C01"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "b-nariai-tractor",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/b-nariai-tractor",
+      "check_ids": [
+        "G-B-S01",
+        "G-B-S02",
+        "G-B-S03",
+        "G-B-S04",
+        "G-B-S05",
+        "G-B-S06",
+        "G-B-S07",
+        "G-B-S08",
+        "G-B-S09",
+        "G-B-S10",
+        "G-B-S11"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "b-quadric-infinity",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/b-quadric-infinity",
+      "check_ids": [
+        "G-B-S12",
+        "G-B-S13",
+        "G-B-S14",
+        "G-B-S15",
+        "G-B-S16",
+        "G-B-S17",
+        "G-B-S18",
+        "G-B-S19",
+        "G-B-S20",
+        "G-B-S21",
+        "G-B-S22",
+        "G-B-S23",
+        "G-B-S24",
+        "G-B-S25",
+        "G-B-S26",
+        "G-B-S27",
+        "G-B-S28",
+        "G-B-S29",
+        "G-B-S30",
+        "G-B-S31",
+        "G-B-S32",
+        "G-B-S33",
+        "G-B-S34",
+        "G-B-S35",
+        "G-B-S36",
+        "G-B-S37",
+        "G-B-S38"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "b-gaussian-d",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/b-gaussian-d",
+      "check_ids": [
+        "G-B-D01",
+        "G-B-D02",
+        "G-B-D03",
+        "G-B-D04",
+        "G-B-D05",
+        "G-B-D06",
+        "G-B-D07"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "b-gaussian-o",
+      "runtime_root": ".",
+      "runner": "code/run.py",
+      "result_dir": "results/b-gaussian-o",
+      "check_ids": [
+        "G-B-O01",
+        "G-B-O02",
+        "G-B-O03",
+        "G-B-O04",
+        "G-B-O05",
+        "G-B-O06",
+        "G-B-O07"
+      ],
+      "evidence_origin": "Retained rc.1 run; all actual inputs/runtime files unchanged"
+    },
+    {
+      "job": "general-jet",
+      "runtime_root": "jets/",
+      "runner": "jets/code/run.py",
+      "result_dir": "jets/results/general-jet",
+      "check_ids": [
+        "GG-JET-K",
+        "GG-JET-RIJ",
+        "GG-JET-R00",
+        "GG-JET-R0I",
+        "GG-JET-CONSTRAINT",
+        "GG-BIANCHI-TIME",
+        "GG-BIANCHI-SPACE"
+      ],
+      "evidence_origin": "Fresh rc.2 run"
+    },
+    {
+      "job": "third-time",
+      "runtime_root": "jets/",
+      "runner": "jets/code/run.py",
+      "result_dir": "jets/results/third-time",
+      "check_ids": [
+        "GG-THIRD-TIME"
+      ],
+      "evidence_origin": "Fresh rc.2 run"
+    },
+    {
+      "job": "third-space",
+      "runtime_root": "jets/",
+      "runner": "jets/code/run.py",
+      "result_dir": "jets/results/third-space",
+      "check_ids": [
+        "GG-THIRD-SPACE-1",
+        "GG-THIRD-SPACE-2",
+        "GG-THIRD-SPACE-3"
+      ],
+      "evidence_origin": "Fresh rc.2 run"
+    }
+  ],
+  "probes": [
+    {
+      "runtime_root": ".",
+      "result_dir": "results/failure-probe",
+      "expected_exit": 1
+    },
+    {
+      "runtime_root": "jets/",
+      "result_dir": "jets/results/failure-probe",
+      "expected_exit": 1
+    }
+  ]
+}

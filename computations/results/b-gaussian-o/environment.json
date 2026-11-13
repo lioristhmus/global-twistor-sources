@@ -1,0 +1,170 @@
+{
+  "job": "b-gaussian-o",
+  "utc_start": "2026-11-12T15:30:51.748462+00:00",
+  "mathematics_on_host": false,
+  "vm": {
+    "OperatingSystem": "Docker Desktop",
+    "ServerVersion": "29.9.2",
+    "CgroupVersion": "2",
+    "MemTotal": 8318709760,
+    "NCPU": 16
+  },
+  "host": {
+    "system": "Darwin",
+    "machine": "arm64"
+  },
+  "other_services": {
+    "limits": [
+      {
+        "alias": "service-1",
+        "memory": 0,
+        "memory_swap": 0,
+        "nano_cpus": 0,
+        "pids_limit": null
+      },
+      {
+        "alias": "service-2",
+        "memory": 0,
+        "memory_swap": 0,
+        "nano_cpus": 0,
+        "pids_limit": null
+      },
+      {
+        "alias": "service-3",
+        "memory": 0,
+        "memory_swap": 0,
+        "nano_cpus": 0,
+        "pids_limit": null
+      },
+      {
+        "alias": "service-4",
+        "memory": 0,
+        "memory_swap": 0,
+        "nano_cpus": 0,
+        "pids_limit": null
+      }
+    ],
+    "usage": [
+      {
+        "MemUsage": "1.444GiB / 7.747GiB",
+        "CPUPerc": "4.77%",
+        "PIDs": "55"
+      },
+      {
+        "MemUsage": "58.63MiB / 7.747GiB",
+        "CPUPerc": "0.00%",
+        "PIDs": "13"
+      },
+      {
+        "MemUsage": "34.71MiB / 7.747GiB",
+        "CPUPerc": "0.42%",
+        "PIDs": "6"
+      },
+      {
+        "MemUsage": "196.4MiB / 7.747GiB",
+        "CPUPerc": "0.00%",
+        "PIDs": "9"
+      }
+    ]
+  },
+  "image": {
+    "Id": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+    "RepoDigests": [
+      "sagemath/sagemath@sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667"
+    ],
+    "Architecture": "amd64",
+    "Os": "linux"
+  },
+  "limits": {
+    "image_tag": "sagemath/sagemath:10.9",
+    "image_reference": "sagemath/sagemath@sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+    "local_image_id": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+    "image_platform": "linux/amd64",
+    "sage": "10.9",
+    "sympy": "1.14.0",
+    "python": "3.12.3",
+    "network": "none",
+    "memory_bytes": 1999998976,
+    "memory_plus_swap_bytes": 1999998976,
+    "cpus": 1,
+    "pids": 32,
+    "command_term_seconds": 117,
+    "command_kill_grace_seconds": 3,
+    "pid1_term_seconds": 297,
+    "host_job_seconds": 300,
+    "tmpfs_bytes": 268435456,
+    "log_bytes": 1048576,
+    "pull_policy": "never"
+  },
+  "input_hashes": {
+    "code/b_gaussian.py": "51fa156a3ca57088067821f9fce0af897e78bd6415106089cee1d655ebc460f0",
+    "code/report.py": "0484298f5fc05f0abc6841e2718a07e65aac21cfe5789ab644751bde1669ff6a",
+    "code/run.py": "69a7e849aa6fdfc09915f9ec0133c75fb8b7699b7e3e8a32777013d53244c5d1",
+    "code/worker.py": "1e5aa2bd69552f874f6650982a75ae5d158edb567635d245969eac609c386ebb",
+    "environment.lock.json": "e0c30c089820c017054d4baf423143693df080137e028353148255d5c6f541a6",
+    "inputs.json": "460847deed3592f90ae93e6832ed200ca69d01736151d54c1a6ecd56d1410740",
+    "jobs.json": "69d6dbaad4a0103f8b917589cdf143edd157884bcce78ba261dd8529c665ba03"
+  },
+  "host_config": {
+    "Memory": 1999998976,
+    "MemorySwap": 1999998976,
+    "NanoCpus": 1000000000,
+    "PidsLimit": 32,
+    "NetworkMode": "none",
+    "ReadonlyRootfs": true,
+    "OomKillDisable": false,
+    "RestartPolicy": {
+      "Name": "no",
+      "MaximumRetryCount": 0
+    },
+    "Tmpfs": {
+      "/tmp": "rw,nosuid,nodev,size=67108864,mode=1777",
+      "/work": "rw,nosuid,nodev,size=201326592,mode=1777"
+    },
+    "Ulimits": [
+      {
+        "Name": "core",
+        "Hard": 0,
+        "Soft": 0
+      },
+      {
+        "Name": "fsize",
+        "Hard": 1048576,
+        "Soft": 1048576
+      },
+      {
+        "Name": "nofile",
+        "Hard": 256,
+        "Soft": 256
+      }
+    ],
+    "LogConfig": {
+      "Type": "local",
+      "Config": {
+        "compress": "false",
+        "max-file": "1",
+        "max-size": "1m"
+      }
+    },
+    "CapDrop": [
+      "ALL"
+    ],
+    "SecurityOpt": [
+      "no-new-privileges"
+    ]
+  },
+  "container_state": {
+    "Status": "exited",
+    "Running": false,
+    "ExitCode": 0,
+    "OOMKilled": false,
+    "StartedAt": "2026-11-12T15:30:59.92340401Z",
+    "FinishedAt": "2026-11-12T15:31:08.654185055Z"
+  },
+  "client_exit_code": 0,
+  "container_stopped": true,
+  "container_removed": true,
+  "lock_released": true,
+  "controller_seconds": 17.039,
+  "error": null
+}

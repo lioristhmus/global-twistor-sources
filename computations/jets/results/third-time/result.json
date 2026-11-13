@@ -1,0 +1,43 @@
+{
+  "job": "third-time",
+  "status": "PASS",
+  "client_exit_code": 0,
+  "checks": [
+    {
+      "id": "GG-THIRD-TIME",
+      "info": "",
+      "record": "check",
+      "scope": "all 24 first, 60 second, 120 third metric derivatives; h(p)=Id; constant lam",
+      "status": "PASS",
+      "title": "Direct time contracted Bianchi from the Ricci definition"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 1,
+    "failed": [],
+    "job": "third-time",
+    "metrics": {
+      "cpu.stat": "usage_usec 1563328\nuser_usec 1432133\nsystem_usec 131195\nnice_usec 0\nnr_periods 15\nnr_throttled 6\nthrottled_usec 31098\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "71430144",
+      "pids.peak": "7"
+    },
+    "missing": [],
+    "observed_count": 1,
+    "record": "summary",
+    "status": "PASS",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 0.659
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "43649c8cfc2c98964ba5efe0eb64b8117066abf1086f6fde262b44c08fbad83d",
+  "error": null
+}

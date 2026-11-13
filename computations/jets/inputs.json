@@ -1,0 +1,37 @@
+{
+  "helper_sha256": "8248f74b2e45f7842ea42b296f428de8cd212c9420a5ef43441cb88b545c979b",
+  "normalization": "ghat(p)=diag(-1,1,1,1) by a constant spatial linear coordinate change; first spatial derivatives retained",
+  "first_derivatives": 24,
+  "second_derivatives": 60,
+  "third_derivatives": 120,
+  "symbols": "all six symmetric spatial entries in all four coordinates; only metric-index symmetry and mixed-partial commutation imposed",
+  "residual_symbols": {
+    "E": 10,
+    "dE": 40
+  },
+  "lambda": "arbitrary constant lam=-Lambda",
+  "proof_bridge": "JET-SCOPE.md in the package root; input jets are symbolic indeterminates, not random samples",
+  "profiles": {
+    "general-jet": {
+      "metric": "ghat=-dt^2+h_ij dx^i dx^j",
+      "normalization": "h(p)=Id by a constant spatial linear coordinate change",
+      "first_derivatives": 24,
+      "second_derivatives": 60,
+      "symmetries": "h_ij=h_ji; commuting mixed derivatives",
+      "residual": "independent symmetric E and 40 first derivatives",
+      "scope": "universal finite-jet algebra; contracted Bianchi itself is used as a geometric identity"
+    },
+    "third-jet": {
+      "helper_sha256": "8248f74b2e45f7842ea42b296f428de8cd212c9420a5ef43441cb88b545c979b",
+      "metric": "ghat=-dt^2+h",
+      "normalization": "h(p)=Id by constant spatial linear coordinates",
+      "independent_metric_derivatives": {
+        "first": 24,
+        "second": 60,
+        "third": 120
+      },
+      "assumptions": "symmetric h, commuting partials, constant lam; no Einstein equations imposed",
+      "target": "contracted Bianchi for E=Ric(ghat)-lam*ghat derived directly from metric jets"
+    }
+  }
+}

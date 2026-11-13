@@ -1,0 +1,86 @@
+{
+  "job": "general-jet",
+  "status": "PASS",
+  "client_exit_code": 0,
+  "checks": [
+    {
+      "id": "GG-JET-K",
+      "info": "",
+      "metric_jet": "general symmetric h; h(p)=Id; 24 first + 60 second derivatives",
+      "record": "check",
+      "status": "PASS",
+      "title": "K from the four-dimensional Christoffel symbols"
+    },
+    {
+      "id": "GG-JET-RIJ",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "All spatial Gaussian Ricci components"
+    },
+    {
+      "id": "GG-JET-R00",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "Gaussian time-time Ricci component"
+    },
+    {
+      "id": "GG-JET-R0I",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "All Gaussian time-space Ricci components"
+    },
+    {
+      "id": "GG-JET-CONSTRAINT",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "Hamiltonian trace identity for arbitrary constant lam"
+    },
+    {
+      "id": "GG-BIANCHI-TIME",
+      "info": "",
+      "record": "check",
+      "residual": "arbitrary symmetric E and its 40 first derivatives",
+      "status": "PASS",
+      "title": "Full time residual: contracted Bianchi in Gaussian coordinates"
+    },
+    {
+      "id": "GG-BIANCHI-SPACE",
+      "info": "",
+      "record": "check",
+      "status": "PASS",
+      "title": "All three full spatial contracted-Bianchi residuals"
+    }
+  ],
+  "worker_summary": {
+    "error": null,
+    "expected_count": 7,
+    "failed": [],
+    "job": "general-jet",
+    "metrics": {
+      "cpu.stat": "usage_usec 1290412\nuser_usec 1145702\nsystem_usec 144709\nnice_usec 0\nnr_periods 13\nnr_throttled 8\nthrottled_usec 55105\nnr_bursts 0\nburst_usec 0",
+      "memory.peak": "69914624",
+      "pids.peak": "7"
+    },
+    "missing": [],
+    "observed_count": 7,
+    "record": "summary",
+    "status": "PASS",
+    "versions": {
+      "machine": "x86_64",
+      "platform": "Linux",
+      "python": "3.12.3",
+      "sage": "10.9",
+      "sympy": "1.14.0"
+    },
+    "worker_seconds": 0.371
+  },
+  "stopped": true,
+  "removed": true,
+  "lock_released": true,
+  "log_sha256": "efa45b6c8fc0f008d4685b3e9a69233e8ca712315dfcb962b6c72152595a046c",
+  "error": null
+}

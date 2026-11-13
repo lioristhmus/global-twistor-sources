@@ -33,13 +33,14 @@
   "release_binding": {
     "paper_version": "1.0",
     "supplement_version": "1.0.0",
-    "source_md_sha256": "1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842",
-    "tex_sha256": "6344e106cc70163176fdd7e8def059c75adac84950830670a91264bade8108af",
-    "pdf_sha256": "240ef2163c11588300380759315566043a11117a6577517cb9036cb3aa262d38",
+    "source_md_sha256": "4dfa6c2966485a8eff8c689ab26697e02963508925b6b8ad7320287802307a5b",
+    "tex_sha256": "fbd1ad44474b37d7484c9f4ff3f005b65e8917149382ac1b01edf86dae0d0a9a",
+    "pdf_sha256": "60911dbc8d08e386fb699ae199766d5344d002fcd52d63002288d88a8d7d3ebf",
     "repository_tag": "v1.0",
     "status": "prepared locally, not published",
     "basis": "1.0.0-rc.2",
     "mathematical_jobs_rerun": 0,
-    "executed_payload_policy": "All calculation/runtime/input/result files are byte-identical to rc.2; only host package validation, indexes, citations, mapping and documentation change."
+    "executed_payload_policy": "All calculation/runtime/input/result files are byte-identical to rc.2; only host package validation, indexes, citations, mapping and documentation change.",
+    "prepublication_refreeze": "AI-use disclosure and computational-check summary added; no mathematical jobs rerun."
   }
 }

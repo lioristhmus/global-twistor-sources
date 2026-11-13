@@ -9,8 +9,8 @@ repository, Release, DOI or submission.
 - Planned release tag and citation URL: https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0
 
 The paper starts from the preserved v0.9.8-draft Markdown, SHA-256
-`559a830c073a079dac2ce8650c2c01779711cf58e3302805065e7ae35d5be0c7`. Changes are limited to release metadata and the
-computational-supplement bibliography entry. Mathematical text, assumptions,
+`559a830c073a079dac2ce8650c2c01779711cf58e3302805065e7ae35d5be0c7`. Changes are limited to release metadata, the computational-supplement
+bibliography entry, and an AI-use disclosure with a computational-check summary. Mathematical text, assumptions,
 equations, symbols, anchors and statement numbering are retained.
 
 The supplement starts from the preserved 1.0.0-rc.2 ZIP, SHA-256

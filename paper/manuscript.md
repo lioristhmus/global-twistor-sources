@@ -2387,6 +2387,8 @@ The analytic constraint data fixed above have a maximal analytic spin developmen
 
 Maximality here is within the analytic globally hyperbolic category of the fixed Cauchy data. The construction proves $M_\omega\subset M_{\mathrm{sm}}$ as an open subspacetime. Equality would require a separate analytic-regularity propagation argument. Neither geodesic completeness nor maximality among extensions in which the initial hypersurface ceases to be Cauchy is asserted.
 
+**AI-use disclosure.** AI systems were used extensively throughout this research and the preparation of this manuscript. The models used were GPT-6 Pro, gpt-6.1-sol (xhigh), and Claude Opus 5.5 (xhigh). Selected symbolic identities and explicit metric examples were checked using SageMath and SymPy; the code, inputs, computational environment and recorded results are provided in the computational supplement [@IsthmusGlobalComputations].
+
 <div id="sec:references"></div>
 
 ## References

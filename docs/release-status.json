@@ -11,5 +11,8 @@
   "doi_assigned": false,
   "base_manuscript_sha256": "559a830c073a079dac2ce8650c2c01779711cf58e3302805065e7ae35d5be0c7",
   "base_supplement_zip_sha256": "151bea469f4fdca0539e95c7fb486104c0efc471bf85e89e5c577fedde9eeb96",
-  "mathematical_jobs_rerun": 0
+  "mathematical_jobs_rerun": 0,
+  "ai_use_disclosure_included": true,
+  "prepublication_refreeze": "AI-use disclosure and computational-check summary",
+  "previous_local_commit": "2dfa11a30e4e4187918a7bea05c112965bf545bb"
 }

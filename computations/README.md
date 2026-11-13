@@ -5,7 +5,7 @@ same repository and release. [Read the paper](../paper/manuscript.pdf),
 [canonical Markdown](../paper/manuscript.md) and
 [check-to-manuscript table](CHECKS.md).
 
-The source SHA-256 is `1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842`.
+The source SHA-256 is `4dfa6c2966485a8eff8c689ab26697e02963508925b6b8ad7320287802307a5b`.
 Printed equation numbers and pages are read from the accompanying v1.0 PDF and
 bound to its source/TeX/PDF hashes in [MANUSCRIPT-LOCATORS.json](MANUSCRIPT-LOCATORS.json).
 

@@ -1,6 +1,6 @@
 # Check-to-manuscript correspondence
 
-Target manuscript: **v1.0**, SHA-256 `1b7be1cab4da20f2d17d448ae3b045a27683b61f632bac4417705ae2e4557842`. [The accompanying PDF](../paper/manuscript.pdf) supplies every printed equation/page locator below. [MANUSCRIPT-LOCATORS.json](MANUSCRIPT-LOCATORS.json) binds them to the source, TeX and PDF hashes.
+Target manuscript: **v1.0**, SHA-256 `4dfa6c2966485a8eff8c689ab26697e02963508925b6b8ad7320287802307a5b`. [The accompanying PDF](../paper/manuscript.pdf) supplies every printed equation/page locator below. [MANUSCRIPT-LOCATORS.json](MANUSCRIPT-LOCATORS.json) binds them to the source, TeX and PDF hashes.
 
 The 57 original IDs and outputs are retained from rc.1. The eleven `GG-...` IDs are fresh rc.2 universal-jet checks. [JET-SCOPE.md](JET-SCOPE.md) gives the finite-jet proof bridge and shared-code relationship; [execution-index.json](execution-index.json) distinguishes the two drivers and evidence origins. The complete fields are in [checks.json](checks.json). [CONVENTIONS.md](CONVENTIONS.md) applies throughout.
 

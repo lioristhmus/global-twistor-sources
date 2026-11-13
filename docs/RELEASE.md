@@ -1,5 +1,13 @@
 # Release v1.0
 
+Published on GitHub: 2026-11-13T06:06:34Z.
+[Release and downloads](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0).
+Frozen release commit: `713e6feb37dad4e42ac5ca1acf237147cf42e1f5`.
+[Public download verification](github-publication.json).
+
+The preparation record below describes the reviewed snapshot retained in the
+published tag and attached archives.
+
 Prepared locally on 2026-11-13. This preparation creates no public GitHub
 repository, Release, DOI or submission.
 
@@ -29,7 +37,7 @@ paper-source ZIP, computational ZIP, combined repository ZIP and their hashes.
 GitHub's generated source archives need not have the same bytes as these
 deterministic, locally checked ZIP files.
 
-Before publication, verify the intended repository address, license scopes and
-publication metadata, then publish this reviewed commit and tag. Publication
-status text may be updated to reflect the actual event before the public tag is
-created. No public availability is claimed by this local preparation.
+The published v1.0 tag and attached paper/ZIP assets retain this reviewed
+snapshot. Later publication-metadata updates on the default branch do not replace
+those release artifacts. No Zenodo, Hexagon or ORCID operation was performed as
+part of the GitHub publication.

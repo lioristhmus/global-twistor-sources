@@ -44,7 +44,10 @@ Use [CITATION.cff](CITATION.cff) for the paper and
 [computations/CITATION.cff](computations/CITATION.cff) for the checks. The
 version-specific target is [GitHub release v1.0](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0).
 
-**Preparation status:** this v1.0 package has been prepared locally. The GitHub
-repository and Release have not been published by this preparation operation;
-the GitHub URLs above are the intended publication addresses. No DOI has been
+**Publication status:** [Release v1.0](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0) is public.
+The paper PDF, three ZIP packages and SHA-256 list are attached to the release.
+Public downloads were checked against the reviewed files; see the
+[publication and download-verification record](docs/github-publication.json).
+The v1.0 tag identifies the reviewed paper and computation snapshot. Publication
+metadata on the default branch is maintained separately. No DOI has been
 assigned to this global paper package.

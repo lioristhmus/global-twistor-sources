@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "repository_url": "https://github.com/lioristhmus/global-twistor-sources",
+  "visibility": "public",
+  "release_url": "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0",
+  "release_id": 443875775,
+  "release_tag": "v1.0",
+  "release_commit": "713e6feb37dad4e42ac5ca1acf237147cf42e1f5",
+  "published_at": "2026-11-13T06:06:34Z",
+  "asset_count": 5,
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 420,
+      "sha256": "d9bbf123be5994695e4b2859b7f8718add53e214370e392803b2c27dd01ae03d",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0/SHA256SUMS.txt",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-computational-supplement-1.0.0.zip",
+      "size": 817401,
+      "sha256": "248696438e3aa89f0508186713b16e9b6570d240562fe92a461d318aaa5db275",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0/global-twistor-computational-supplement-1.0.0.zip",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-sources-en-v1.0.pdf",
+      "size": 626608,
+      "sha256": "60911dbc8d08e386fb699ae199766d5344d002fcd52d63002288d88a8d7d3ebf",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0/global-twistor-sources-en-v1.0.pdf",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-sources-v1.0-source.zip",
+      "size": 177509,
+      "sha256": "9dd0d7e385549dae622d3224cca83b8c4e5713c6599457fe1d5be2e5b364cd80",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0/global-twistor-sources-v1.0-source.zip",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-sources-v1.0.zip",
+      "size": 922706,
+      "sha256": "79e51777fa76239c72756887895e86602f681a91d36621083d6ed0f932833faa",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0/global-twistor-sources-v1.0.zip",
+      "verification": "PASS"
+    }
+  ],
+  "public_download_without_authentication": true,
+  "asset_hashes_match_reviewed_files": true,
+  "zip_crc_checks": "PASS",
+  "downloaded_repository_validator": "PASS",
+  "pdf_pages": 72,
+  "ai_use_disclosure_verified": true,
+  "mathematical_jobs_started": 0,
+  "zenodo_operations": 0,
+  "hexagon_operations": 0,
+  "orcid_operations": 0
+}

@@ -138,9 +138,10 @@ point tolerance. See the input profiles for domains and exceptional cases.
 
 ## Citation and publication status
 
-[CITATION.cff](CITATION.cff) identifies supplement 1.0.0 within the planned
+[CITATION.cff](CITATION.cff) identifies supplement 1.0.0 within the published
 [shared v1.0 release](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0).
 The paper and checks are distributed together. See [license scopes](LICENSES.md)
-and the repository's [preparation status](../docs/RELEASE.md).
-The GitHub address is the intended publication target; this local preparation
-has not published it. No separate supplement DOI is required or assigned.
+and the repository's [publication record](../docs/RELEASE.md).
+The v1.0 tag and attached archives retain the reviewed release snapshot.
+Publication notices on the default branch are maintained separately.
+No separate supplement DOI has been assigned.

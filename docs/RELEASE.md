@@ -36,7 +36,8 @@ Historical rc.1/rc.2 labels in execution provenance describe the actual runs.
 
 The local license proposal follows the previous local-paper package: CC BY 4.0
 for the paper/data/docs and Apache-2.0 for executable/build code, with explicit
-file scopes in LICENSES.md. Both full license texts are included.
+file scopes in LICENSES.md. The package includes the Apache-2.0 license text
+and a CC BY 4.0 notice linking to the authoritative legal code.
 
 The release asset directory prepared alongside this repository contains the PDF,
 paper-source ZIP, computational ZIP, combined repository ZIP and their hashes.

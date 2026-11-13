@@ -16,5 +16,5 @@ https://creativecommons.org/licenses/by/4.0/legalcode
 
 Suggested attribution:
 
-> Lior Isthmus, *A Projective Twistor Correspondence for Local Analytic
-> Einstein Germs*, 2026, CC BY 4.0.
+> Lior Isthmus, *Global twistor sources for analytic Einstein spacetimes*,
+> 2026, CC BY 4.0.

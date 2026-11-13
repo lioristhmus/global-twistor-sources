@@ -49,5 +49,10 @@ The paper PDF, three ZIP packages and SHA-256 list are attached to the release.
 Public downloads were checked against the reviewed files; see the
 [publication and download-verification record](docs/github-publication.json).
 The v1.0 tag identifies the reviewed paper and computation snapshot. Publication
-metadata on the default branch is maintained separately. No DOI has been
-assigned to this global paper package.
+metadata on the default branch is maintained separately.
+
+The same five files are archived on [Zenodo](https://zenodo.org/records/24186390).
+Version-specific DOI: [10.5281/zenodo.24186390](https://doi.org/10.5281/zenodo.24186390).
+All versions: [10.5281/zenodo.24186389](https://doi.org/10.5281/zenodo.24186389).
+Zenodo public downloads match the GitHub release assets byte for byte; see the
+[Zenodo publication and verification record](docs/zenodo-publication.json).

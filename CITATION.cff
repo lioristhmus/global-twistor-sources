@@ -7,6 +7,7 @@ authors:
     family-names: Isthmus
     orcid: "https://orcid.org/0009-0004-7908-9876"
 version: "1.0"
+doi: "10.5281/zenodo.24186390"
 url: "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0"
 repository-code: "https://github.com/lioristhmus/global-twistor-sources"
 license:
@@ -26,4 +27,5 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0004-7908-9876"
   year: 2026
   version: "1.0"
+  doi: "10.5281/zenodo.24186390"
   url: "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0"

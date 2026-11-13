@@ -5,6 +5,12 @@ Published on GitHub: 2026-11-13T06:06:34Z.
 Frozen release commit: `713e6feb37dad4e42ac5ca1acf237147cf42e1f5`.
 [Public download verification](github-publication.json).
 
+Archived on Zenodo on 2026-11-13 with the identical PDF, three ZIP files and
+SHA-256 list. Version-specific DOI:
+[10.5281/zenodo.24186390](https://doi.org/10.5281/zenodo.24186390).
+[Zenodo public download verification](zenodo-publication.json).
+The GitHub tag and attached release files are unchanged.
+
 The preparation record below describes the reviewed snapshot retained in the
 published tag and attached archives.
 

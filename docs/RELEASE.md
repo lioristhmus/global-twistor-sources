@@ -11,6 +11,16 @@ SHA-256 list. Version-specific DOI:
 [Zenodo public download verification](zenodo-publication.json).
 The GitHub tag and attached release files are unchanged.
 
+Published on Hexagon: [2611.00425v1](https://hexagonmath.org/2611.00425v1).
+The paper is listed on [ORCID](https://orcid.org/0009-0004-7908-9876), linking
+to that Hexagon record. Zenodo's related works now include the same Hexagon
+version URL. Its DOI, version and archived files are unchanged.
+
+Publication links checked on 2026-11-14. The default branch maintains current
+publication metadata and its corresponding hashes. Paper and computational
+files, frozen tags and attached PDF/ZIP/checksum assets are preserved. No
+mathematical job was rerun for this metadata update.
+
 The preparation record below describes the reviewed snapshot retained in the
 published tag and attached archives.
 

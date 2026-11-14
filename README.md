@@ -25,6 +25,9 @@ the paper; these checks are not a formal verification of the whole manuscript.
 The previous local paper is available at
 [Hexagon 2611.00123v1](https://hexagonmath.org/2611.00123v1), with its own
 [repository](https://github.com/lioristhmus/projective-twistor-einstein-germs).
+That v1 record is the mathematical baseline cited by this paper. The local
+paper's current v1.1 edition, adding computational references, is
+[Hexagon 2611.00123v2](https://hexagonmath.org/2611.00123v2).
 Its mathematical scope and release history remain separate. Any future Lean
 formalization will use a separate repository tied to an exact paper version.
 
@@ -56,3 +59,9 @@ Version-specific DOI: [10.5281/zenodo.24186390](https://doi.org/10.5281/zenodo.2
 All versions: [10.5281/zenodo.24186389](https://doi.org/10.5281/zenodo.24186389).
 Zenodo public downloads match the GitHub release assets byte for byte; see the
 [Zenodo publication and verification record](docs/zenodo-publication.json).
+
+The paper is also published as [Hexagon 2611.00425v1](https://hexagonmath.org/2611.00425v1)
+and listed on the author's [ORCID record](https://orcid.org/0009-0004-7908-9876).
+Zenodo's related works link to this Hexagon version. Publication links were
+checked on 14 November 2026; see [current status](docs/release-status.json).
+The frozen v1.0 tag, paper files and release attachments are unchanged.

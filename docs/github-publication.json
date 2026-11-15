@@ -1,7 +1,59 @@
 {
-  "status": "PREPARED",
-  "release_tag": "v1.0.1",
+  "status": "PASS",
+  "repository_url": "https://github.com/lioristhmus/global-twistor-sources",
+  "visibility": "public",
   "release_url": "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0.1",
-  "previous_verified_release_record": "docs/github-publication-v1.0.json",
-  "publication_performed": false
+  "release_id": 445814605,
+  "release_tag": "v1.0.1",
+  "release_commit": "c4790d86bde45f866aff5bb03ac1122cd6ce3c9a",
+  "published_at": "2026-11-15T04:42:33Z",
+  "asset_count": 4,
+  "assets": [
+    {
+      "id": 749847300,
+      "name": "SHA256SUMS.txt",
+      "size": 325,
+      "sha256": "5ca1f09c49efc481523a591d87c55e36887ee06eee1b8d9da6f85680a651d6ef",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0.1/SHA256SUMS.txt",
+      "verification": "PASS"
+    },
+    {
+      "id": 749847301,
+      "name": "global-twistor-sources-en-v1.0.1.pdf",
+      "size": 626406,
+      "sha256": "ec6b2862146cd32f0d939073d5d299e3a8cd5eec65f6af51343027d6fdfc85dc",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0.1/global-twistor-sources-en-v1.0.1.pdf",
+      "verification": "PASS"
+    },
+    {
+      "id": 749847298,
+      "name": "global-twistor-sources-v1.0.1-hexagon-source.zip",
+      "size": 74603,
+      "sha256": "95a88407e0f8ccccdbe006b10e8dd16aa5803400d83b798a43cafa3f5ce35275",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0.1/global-twistor-sources-v1.0.1-hexagon-source.zip",
+      "verification": "PASS"
+    },
+    {
+      "id": 749847303,
+      "name": "global-twistor-sources-v1.0.1-source.zip",
+      "size": 925036,
+      "sha256": "39960d97f1ee6ee80b2bc14664668773f3ec143c6efd551f40d562f5dc146cb7",
+      "public_download_url": "https://github.com/lioristhmus/global-twistor-sources/releases/download/v1.0.1/global-twistor-sources-v1.0.1-source.zip",
+      "verification": "PASS"
+    }
+  ],
+  "public_download_without_authentication": true,
+  "asset_hashes_match_reviewed_files": true,
+  "zip_crc_checks": "PASS",
+  "downloaded_source_validator": "PASS",
+  "saved_check_count": 68,
+  "pdf_pages": 72,
+  "v1.0_tag_preserved": "713e6feb37dad4e42ac5ca1acf237147cf42e1f5",
+  "v1.0_release_and_five_assets_preserved": true,
+  "reference_count": 25,
+  "hexagon_server_extraction_tested": false,
+  "mathematical_jobs_started": 0,
+  "zenodo_operations": 0,
+  "hexagon_operations": 0,
+  "orcid_operations": 0
 }

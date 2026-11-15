@@ -3,11 +3,11 @@
   "supplement_version": "1.0.0",
   "tag": "v1.0.1",
   "prepared_date": "2026-11-15",
-  "publication_status": "prepared-for-github-release",
+  "publication_status": "github-published",
   "repository_url": "https://github.com/lioristhmus/global-twistor-sources",
   "release_url": "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0.1",
   "public_repository_created": true,
-  "public_release_created": false,
+  "public_release_created": true,
   "doi_assigned": false,
   "zenodo_published": false,
   "hexagon_submitted": false,
@@ -15,5 +15,12 @@
   "mathematical_jobs_rerun": 0,
   "previous_version_record": "docs/release-status-v1.0.json",
   "previous_v1.0_preserved": true,
-  "scope": "Bibliography extraction markup only; mathematical content, reference content/order and computational records retained."
+  "scope": "Bibliography extraction markup only; mathematical content, reference content/order and computational records retained.",
+  "github_published_at": "2026-11-15T04:42:33Z",
+  "github_release_id": 445814605,
+  "frozen_release_commit": "c4790d86bde45f866aff5bb03ac1122cd6ce3c9a",
+  "public_download_verification": "PASS",
+  "publication_verification_record": "docs/github-publication.json",
+  "metadata_updated_date": "2026-11-15",
+  "v1.0_release_and_assets_preserved": true
 }

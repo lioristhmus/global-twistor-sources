@@ -1,6 +1,9 @@
 # Release v1.0.1
 
-Prepared on 2026-11-15 for publication on GitHub.
+Published on GitHub: 2026-11-15T04:42:33Z.
+Public PDF, both source ZIPs and SHA-256 list were downloaded without
+authentication and verified byte for byte. The downloaded source package
+validator passed; the v1.0 tag and all five old Release assets are preserved.
 [Release](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0.1)
 and [publication/download record](github-publication.json).
 

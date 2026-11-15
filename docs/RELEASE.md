@@ -25,7 +25,14 @@ step initially covered GitHub. On 2026-11-15 the same four files were archived
 on Zenodo as [10.5281/zenodo.24239028](https://doi.org/10.5281/zenodo.24239028).
 Anonymous downloads and the DOI resolution were verified; see
 [Zenodo verification](zenodo-publication.json). The original Zenodo v1.0
-record is preserved. Hexagon and ORCID remain at their recorded v1.0 states.
+record is preserved.
+
+Hexagon v2 is public as [2611.00425v2](https://hexagonmath.org/2611.00425v2),
+corresponding to manuscript v1.0.1. Its page lists 25 extracted references.
+On 2026-11-16, the existing ORCID work and Zenodo related-work link were
+updated to that version. Only publication guidance and metadata were changed;
+the manuscript, computational records, release files, tags and DOI are retained.
+See the [metadata follow-up](metadata-sync-2026-11-16.json).
 
 ---
 
@@ -34,12 +41,12 @@ record is preserved. Hexagon and ORCID remain at their recorded v1.0 states.
 Published on GitHub: 2026-11-13T06:06:34Z.
 [Release and downloads](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0).
 Frozen release commit: `713e6feb37dad4e42ac5ca1acf237147cf42e1f5`.
-[Public download verification](github-publication.json).
+[Public download verification](github-publication-v1.0.json).
 
 Archived on Zenodo on 2026-11-13 with the identical PDF, three ZIP files and
 SHA-256 list. Version-specific DOI:
 [10.5281/zenodo.24186390](https://doi.org/10.5281/zenodo.24186390).
-[Zenodo public download verification](zenodo-publication.json).
+[Zenodo public download verification](zenodo-publication-v1.0.json).
 The GitHub tag and attached release files are unchanged.
 
 Published on Hexagon: [2611.00425v1](https://hexagonmath.org/2611.00425v1).

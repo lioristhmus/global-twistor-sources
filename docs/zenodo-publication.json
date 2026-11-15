@@ -70,5 +70,15 @@
   ],
   "mathematical_jobs_started": 0,
   "hexagon_operations": 0,
-  "orcid_operations": 0
+  "orcid_operations": 0,
+  "metadata_followup": {
+    "updated_date": "2026-11-16",
+    "hexagon_url": "https://hexagonmath.org/2611.00425v2",
+    "relation": "isIdenticalTo",
+    "changed_metadata_fields": [
+      "related_identifiers"
+    ],
+    "doi_version_files_unchanged": true,
+    "verification_record": "docs/metadata-sync-2026-11-16.json"
+  }
 }

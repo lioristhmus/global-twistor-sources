@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-11-15T22:52:12.543838+00:00",
+  "scope": "Publication metadata only; manuscript, computations, release assets and frozen tags retained.",
+  "paper_version": "1.0.1",
+  "supplement_version": "1.0.0",
+  "hexagon": {
+    "identifier": "2611.00425v2",
+    "url": "https://hexagonmath.org/2611.00425v2",
+    "status": "published",
+    "reference_count": 25,
+    "previous_version_url": "https://hexagonmath.org/2611.00425v1"
+  },
+  "zenodo": {
+    "record_id": 24239028,
+    "doi": "10.5281/zenodo.24239028",
+    "version": "1.0.1",
+    "hexagon_related_identifier": "https://hexagonmath.org/2611.00425v2",
+    "relation": "isIdenticalTo",
+    "changed_metadata_fields": [
+      "related_identifiers"
+    ],
+    "doi_version_file_entries_unchanged": true
+  },
+  "orcid": {
+    "orcid": "0009-0004-7908-9876",
+    "profile_url": "https://orcid.org/0009-0004-7908-9876",
+    "existing_work_updated": true,
+    "work_title": "Global twistor sources for analytic Einstein spacetimes",
+    "changed_fields": [
+      "url"
+    ],
+    "work_url": "https://hexagonmath.org/2611.00425v2",
+    "public_display_verified": true,
+    "work_count_before": 6,
+    "work_count_after": 6
+  },
+  "preservation": {
+    "protected_tracked_files_unchanged": 82,
+    "frozen_tag_objects": {
+      "v1.0": {
+        "sha": "713e6feb37dad4e42ac5ca1acf237147cf42e1f5",
+        "type": "commit",
+        "url": "https://api.github.com/repos/lioristhmus/global-twistor-sources/git/commits/713e6feb37dad4e42ac5ca1acf237147cf42e1f5"
+      },
+      "v1.0.1": {
+        "sha": "687e9523b257d551b25ed603f13468070f0e67e2",
+        "type": "tag",
+        "url": "https://api.github.com/repos/lioristhmus/global-twistor-sources/git/tags/687e9523b257d551b25ed603f13468070f0e67e2"
+      }
+    },
+    "release_asset_sizes_digests_match_publication_records": true,
+    "current_release_asset_ids_match_publication_record": true,
+    "release_asset_counts": {
+      "v1.0": 5,
+      "v1.0.1": 4
+    },
+    "manuscript_pdf_sha256": "ec6b2862146cd32f0d939073d5d299e3a8cd5eec65f6af51343027d6fdfc85dc",
+    "mathematical_jobs_started": 0
+  },
+  "current_release_download_checks": [
+    {
+      "service": "github",
+      "name": "SHA256SUMS.txt",
+      "size": 325,
+      "sha256": "5ca1f09c49efc481523a591d87c55e36887ee06eee1b8d9da6f85680a651d6ef",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "zenodo",
+      "name": "SHA256SUMS.txt",
+      "size": 325,
+      "sha256": "5ca1f09c49efc481523a591d87c55e36887ee06eee1b8d9da6f85680a651d6ef",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "github",
+      "name": "global-twistor-sources-en-v1.0.1.pdf",
+      "size": 626406,
+      "sha256": "ec6b2862146cd32f0d939073d5d299e3a8cd5eec65f6af51343027d6fdfc85dc",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "zenodo",
+      "name": "global-twistor-sources-en-v1.0.1.pdf",
+      "size": 626406,
+      "sha256": "ec6b2862146cd32f0d939073d5d299e3a8cd5eec65f6af51343027d6fdfc85dc",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "github",
+      "name": "global-twistor-sources-v1.0.1-hexagon-source.zip",
+      "size": 74603,
+      "sha256": "95a88407e0f8ccccdbe006b10e8dd16aa5803400d83b798a43cafa3f5ce35275",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "zenodo",
+      "name": "global-twistor-sources-v1.0.1-hexagon-source.zip",
+      "size": 74603,
+      "sha256": "95a88407e0f8ccccdbe006b10e8dd16aa5803400d83b798a43cafa3f5ce35275",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "github",
+      "name": "global-twistor-sources-v1.0.1-source.zip",
+      "size": 925036,
+      "sha256": "39960d97f1ee6ee80b2bc14664668773f3ec143c6efd551f40d562f5dc146cb7",
+      "http_status": 200,
+      "verification": "PASS"
+    },
+    {
+      "service": "zenodo",
+      "name": "global-twistor-sources-v1.0.1-source.zip",
+      "size": 925036,
+      "sha256": "39960d97f1ee6ee80b2bc14664668773f3ec143c6efd551f40d562f5dc146cb7",
+      "http_status": 200,
+      "verification": "PASS"
+    }
+  ],
+  "links": [
+    {
+      "requested_url": "https://hexagonmath.org/2611.00425v2",
+      "effective_url": "https://hexagonmath.org/2611.00425v2",
+      "http_status": 200
+    },
+    {
+      "requested_url": "https://hexagonmath.org/2611.00425v1",
+      "effective_url": "https://hexagonmath.org/2611.00425v1",
+      "http_status": 200
+    },
+    {
+      "requested_url": "https://doi.org/10.5281/zenodo.24239028",
+      "effective_url": "https://zenodo.org/records/24239028",
+      "http_status": 200
+    },
+    {
+      "requested_url": "https://orcid.org/0009-0004-7908-9876",
+      "effective_url": "https://orcid.org/0009-0004-7908-9876",
+      "http_status": 200
+    }
+  ]
+}

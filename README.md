@@ -54,21 +54,26 @@ The current GitHub release is [v1.0.1](https://github.com/lioristhmus/global-twi
 It includes the reviewed PDF, source package and SHA-256 checksums.
 See the [current publication record](docs/github-publication.json).
 
-The preserved [v1.0 release](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0)
-and its attachments remain unchanged. That version is archived on
-[Zenodo](https://doi.org/10.5281/zenodo.24186390), posted as
-[Hexagon 2611.00425v1](https://hexagonmath.org/2611.00425v1), and listed on
-[ORCID](https://orcid.org/0009-0004-7908-9876). These links identify v1.0;
-v1.0.1 is archived separately on
+Manuscript v1.0.1 is archived on
 [Zenodo](https://doi.org/10.5281/zenodo.24239028), with the same four files as
-the GitHub release. Its DOI is **10.5281/zenodo.24239028**. Public downloads
-match byte for byte; see [Zenodo verification](docs/zenodo-publication.json).
-Hexagon and ORCID have not yet been updated to v1.0.1.
-The [previous publication record](docs/github-publication-v1.0.json),
-[Zenodo verification](docs/zenodo-publication.json) and
-[version-specific status](docs/release-status-v1.0.json) remain available.
+the GitHub release, and published as
+[Hexagon 2611.00425v2](https://hexagonmath.org/2611.00425v2).
+The existing [ORCID work](https://orcid.org/0009-0004-7908-9876) links to
+that Hexagon version. Hexagon v2 corresponds to manuscript v1.0.1, not a new
+mathematical revision. Its page lists all 25 extracted references.
+
+Publication metadata was checked on 2026-11-16. Zenodo's related works include
+the same Hexagon v2 URL. See the [metadata follow-up](docs/metadata-sync-2026-11-16.json)
+and [Zenodo download verification](docs/zenodo-publication.json).
+
+The preserved [v1.0 release](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0),
+[Zenodo v1.0 record](https://doi.org/10.5281/zenodo.24186390) and
+[Hexagon v1](https://hexagonmath.org/2611.00425v1) remain available.
+The original [GitHub publication record](docs/github-publication-v1.0.json),
+[Zenodo verification](docs/zenodo-publication-v1.0.json) and
+[version-specific status](docs/release-status-v1.0.json) are retained.
 
 [Release notes](docs/RELEASE.md) describe the bibliography-only patch and
 [current status](docs/release-status.json) tracks each service separately.
-Actual Hexagon reference extraction remains to be checked after a later
-submission; this GitHub release does not change the existing Hexagon record.
+The main branch maintains current guidance and its manifest. Manuscript files,
+computational files, frozen tags and Release attachments are unchanged.

@@ -1,6 +1,6 @@
 # Global twistor sources for analytic Einstein spacetimes
 
-**Lior Isthmus · manuscript v1.0 · computational supplement 1.0.0**
+**Lior Isthmus · manuscript v1.0.1 · computational supplement 1.0.0**
 
 This repository contains the paper and its accompanying reproducible symbolic
 checks. The paper globalizes the local analytic Einstein correspondence using
@@ -31,6 +31,11 @@ paper's current v1.1 edition, adding computational references, is
 Its mathematical scope and release history remain separate. Any future Lean
 formalization will use a separate repository tied to an exact paper version.
 
+Version 1.0.1 marks the unchanged 25 reference entries as standard TeX
+`\bibitem` entries for automatic extraction. Mathematical text and reference
+content/order are unchanged. The computations retain their original code,
+inputs and recorded results.
+
 ## Verify the downloaded files
 
 ```sh
@@ -41,27 +46,25 @@ This checks local file hashes, the paper-to-check mapping and the saved executio
 records. It does not run the mathematical jobs. Reproduction commands and their
 resource requirements are documented in `computations/README.md`.
 
-## Citation
+## Citation and publication history
 
-Use [CITATION.cff](CITATION.cff) for the paper and
-[computations/CITATION.cff](computations/CITATION.cff) for the checks. The
-version-specific target is [GitHub release v1.0](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0).
+Use [CITATION.cff](CITATION.cff) for manuscript v1.0.1 and
+[computations/CITATION.cff](computations/CITATION.cff) for supplement 1.0.0.
+The current GitHub release is [v1.0.1](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0.1).
+It includes the reviewed PDF, source package and SHA-256 checksums.
+See the [current publication record](docs/github-publication.json).
 
-**Publication status:** [Release v1.0](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0) is public.
-The paper PDF, three ZIP packages and SHA-256 list are attached to the release.
-Public downloads were checked against the reviewed files; see the
-[publication and download-verification record](docs/github-publication.json).
-The v1.0 tag identifies the reviewed paper and computation snapshot. Publication
-metadata on the default branch is maintained separately.
+The preserved [v1.0 release](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0)
+and its attachments remain unchanged. That version is archived on
+[Zenodo](https://doi.org/10.5281/zenodo.24186390), posted as
+[Hexagon 2611.00425v1](https://hexagonmath.org/2611.00425v1), and listed on
+[ORCID](https://orcid.org/0009-0004-7908-9876). These links identify v1.0;
+v1.0.1 has not yet been submitted to those services and has no new DOI.
+The [previous publication record](docs/github-publication-v1.0.json),
+[Zenodo verification](docs/zenodo-publication.json) and
+[version-specific status](docs/release-status-v1.0.json) remain available.
 
-The same five files are archived on [Zenodo](https://zenodo.org/records/24186390).
-Version-specific DOI: [10.5281/zenodo.24186390](https://doi.org/10.5281/zenodo.24186390).
-All versions: [10.5281/zenodo.24186389](https://doi.org/10.5281/zenodo.24186389).
-Zenodo public downloads match the GitHub release assets byte for byte; see the
-[Zenodo publication and verification record](docs/zenodo-publication.json).
-
-The paper is also published as [Hexagon 2611.00425v1](https://hexagonmath.org/2611.00425v1)
-and listed on the author's [ORCID record](https://orcid.org/0009-0004-7908-9876).
-Zenodo's related works link to this Hexagon version. Publication links were
-checked on 14 November 2026; see [current status](docs/release-status.json).
-The frozen v1.0 tag, paper files and release attachments are unchanged.
+[Release notes](docs/RELEASE.md) describe the bibliography-only patch and
+[current status](docs/release-status.json) tracks each service separately.
+Actual Hexagon reference extraction remains to be checked after a later
+submission; this GitHub release does not change the existing Hexagon record.

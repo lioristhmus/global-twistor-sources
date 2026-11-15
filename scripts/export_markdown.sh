@@ -362,6 +362,7 @@ fi
 
 # Release-specific export-only repairs, before the first LaTeX pass.
 python3 "$ROOT/scripts/prepare_release_tex.py" "$TEX_WORK"
+python3 "$ROOT/scripts/prepare_bibliography.py" "$TEX_WORK"
 
 run_latex() {
   local log_file="$1"

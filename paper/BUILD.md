@@ -31,3 +31,8 @@ See `docs/build-origins.json` and `scripts/prepare_release_tex.py`.
 
 Builds in another TeX/Pandoc environment may paginate differently. The distributed
 PDF hashes and the computational correspondence identify this exact release.
+
+Version 1.0.1 also applies `scripts/prepare_bibliography.py` within the vendored
+export pipeline. It wraps the unchanged manual entries in `thebibliography`
+and gives each a unique `\bibitem` key while retaining the original anchors
+and author-year text. No BibTeX file or network lookup is needed.

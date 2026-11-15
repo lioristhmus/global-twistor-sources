@@ -1,3 +1,28 @@
+# Release v1.0.1
+
+Prepared on 2026-11-15 for publication on GitHub.
+[Release](https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0.1)
+and [publication/download record](github-publication.json).
+
+This patch changes reference-list markup for automatic extraction. All 25
+reference entries, their order, and the mathematical text are unchanged from
+v1.0. The standalone TeX now uses `thebibliography` with unique `\bibitem`
+keys. Existing author-year text and original reference anchors remain.
+The PDF remains 72 pages; the TeX preceding References is byte-identical to
+v1.0 and PDF pages 1–69 have identical extracted text. The vendored Markdown
+exporter applies the bibliography conversion reproducibly.
+
+The 68 saved computational checks retain their original mathematical code,
+inputs and results. Only the correspondence's paper version/hashes are
+rebound to v1.0.1; all mapped formula numbers and pages remain unchanged.
+No mathematical job was rerun.
+
+The v1.0 tag, commit and Release attachments are preserved. This publication
+step is limited to GitHub; Zenodo, Hexagon and ORCID remain at their recorded
+v1.0 states. No DOI for v1.0.1 is claimed.
+
+---
+
 # Release v1.0
 
 Published on GitHub: 2026-11-13T06:06:34Z.

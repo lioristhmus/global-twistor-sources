@@ -1,7 +1,7 @@
 {
-  "target_version": "1.0",
-  "target_sha256": "4dfa6c2966485a8eff8c689ab26697e02963508925b6b8ad7320287802307a5b",
-  "equation_numbering": "Printed equation numbers and pages refer to the accompanying manuscript v1.0 PDF. Stable Markdown anchors are retained.",
+  "target_version": "1.0.1",
+  "target_sha256": "7af11e8aaebaaa87588d8fcceee97bbb729145e538c78a561f9464acc1d5cae2",
+  "equation_numbering": "Printed equation numbers and pages refer to manuscript v1.0.1. All mapped equations and pages are unchanged from v1.0; only reference-list markup and package metadata changed.",
   "locators": {
     "prop:nariai-maximal-einstein-development": {
       "type": "statement",
@@ -151,10 +151,10 @@
     }
   },
   "rendered_reference": {
-    "version": "1.0",
-    "md_sha256": "4dfa6c2966485a8eff8c689ab26697e02963508925b6b8ad7320287802307a5b",
-    "tex_sha256": "fbd1ad44474b37d7484c9f4ff3f005b65e8917149382ac1b01edf86dae0d0a9a",
-    "pdf_sha256": "60911dbc8d08e386fb699ae199766d5344d002fcd52d63002288d88a8d7d3ebf",
+    "version": "1.0.1",
+    "md_sha256": "7af11e8aaebaaa87588d8fcceee97bbb729145e538c78a561f9464acc1d5cae2",
+    "tex_sha256": "4710b70a32c783fda8f5260b6ff0372fe9d54c5725dbbd186e04134d713f7047",
+    "pdf_sha256": "ec6b2862146cd32f0d939073d5d299e3a8cd5eec65f6af51343027d6fdfc85dc",
     "pdf_path": "../paper/manuscript.pdf",
     "pdf_supplied_separately": false
   },

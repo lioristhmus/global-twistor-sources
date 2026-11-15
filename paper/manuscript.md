@@ -9,8 +9,9 @@ keywords:
 - null monodromy
 - microdifferential algebroids
 - Cauchy development
-version: '1.0'
-publication-status: prepared-for-public-release
+version: '1.0.1'
+publication-status: prepared-for-github-release
+hexagon-bibliography: bibitem
 rendering:
   source: Pandoc Markdown with tex_math_dollars and raw_html
   citations: Pandoc citeproc; CSL references are embedded below

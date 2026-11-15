@@ -58,7 +58,7 @@ def main():
     allids={cid for e in execution['jobs'] for cid in e['check_ids']}
     require(allids=={r['id'] for r in rows},'Correspondence/job mismatch')
     binding=load(ROOT/'MANUSCRIPT-LOCATORS.json')
-    require(binding['target_version']=='1.0','Wrong target version')
+    require(binding['target_version']==load(ROOT.parent/'docs/release-status.json')['paper_version'],'Wrong target version')
     require(digest(ROOT/binding['target_path'])==binding['target_sha256'],'Paper source digest')
     reference=binding['rendered_reference']
     require(digest(ROOT/reference['pdf_path'])==reference['pdf_sha256'],'Paper PDF digest')
@@ -72,8 +72,8 @@ def main():
         require(not any(isinstance(n,ast.Constant) and isinstance(n.value,float) for n in ast.walk(tree)),'Float literal in calculation source')
         require(set(row['anchors'])<=set(locators),'Missing manuscript locator')
         rendered=row['rendered_reference']
-        require(row['manuscript_version']=='1.0' and row['manuscript_sha256']==binding['target_sha256'],'Index source binding')
-        require(rendered['version']=='1.0' and rendered['pdf_sha256']==reference['pdf_sha256'],'Wrong paper version/hash')
+        require(row['manuscript_version']==binding['target_version'] and row['manuscript_sha256']==binding['target_sha256'],'Index source binding')
+        require(rendered['version']==binding['target_version'] and rendered['pdf_sha256']==reference['pdf_sha256'],'Wrong paper version/hash')
         for v in rendered['equations']:
             require(locators[v['anchor']]['rendered_equation_number']==v['number'] and locators[v['anchor']]['rendered_page']==v['page'],'Printed locator mismatch')
         require(row['id'] in (ROOT/'CHECKS.md').read_text(),'Missing Markdown row')

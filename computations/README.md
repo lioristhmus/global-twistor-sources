@@ -1,12 +1,12 @@
 # Computational supplement for Global twistor sources
 
-Version **1.0.0**, accompanying manuscript **v1.0** by Lior Isthmus, in the
+Version **1.0.0**, accompanying manuscript **v1.0.1** by Lior Isthmus, in the
 same repository and release. [Read the paper](../paper/manuscript.pdf),
 [canonical Markdown](../paper/manuscript.md) and
 [check-to-manuscript table](CHECKS.md).
 
 The source SHA-256 is `4dfa6c2966485a8eff8c689ab26697e02963508925b6b8ad7320287802307a5b`.
-Printed equation numbers and pages are read from the accompanying v1.0 PDF and
+Printed equation numbers and pages are read from the accompanying v1.0.1 PDF and
 bound to its source/TeX/PDF hashes in [MANUSCRIPT-LOCATORS.json](MANUSCRIPT-LOCATORS.json).
 
 The 68 saved checks are inherited from the audited rc.2 package. No mathematical
@@ -145,3 +145,8 @@ and the repository's [publication record](../docs/RELEASE.md).
 The v1.0 tag and attached archives retain the reviewed release snapshot.
 Publication notices on the default branch are maintained separately.
 No separate supplement DOI has been assigned.
+
+The v1.0.1 paper changes only bibliography markup. Its source/PDF hashes are
+bound in the current correspondence files; all mapped formula numbers and
+pages are unchanged. The mathematical code, inputs and recorded results are
+identical to v1.0. No mathematical job was rerun for this update.

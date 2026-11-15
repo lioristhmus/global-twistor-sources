@@ -59,7 +59,11 @@ and its attachments remain unchanged. That version is archived on
 [Zenodo](https://doi.org/10.5281/zenodo.24186390), posted as
 [Hexagon 2611.00425v1](https://hexagonmath.org/2611.00425v1), and listed on
 [ORCID](https://orcid.org/0009-0004-7908-9876). These links identify v1.0;
-v1.0.1 has not yet been submitted to those services and has no new DOI.
+v1.0.1 is archived separately on
+[Zenodo](https://doi.org/10.5281/zenodo.24239028), with the same four files as
+the GitHub release. Its DOI is **10.5281/zenodo.24239028**. Public downloads
+match byte for byte; see [Zenodo verification](docs/zenodo-publication.json).
+Hexagon and ORCID have not yet been updated to v1.0.1.
 The [previous publication record](docs/github-publication-v1.0.json),
 [Zenodo verification](docs/zenodo-publication.json) and
 [version-specific status](docs/release-status-v1.0.json) remain available.

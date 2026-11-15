@@ -21,8 +21,11 @@ rebound to v1.0.1; all mapped formula numbers and pages remain unchanged.
 No mathematical job was rerun.
 
 The v1.0 tag, commit and Release attachments are preserved. This publication
-step is limited to GitHub; Zenodo, Hexagon and ORCID remain at their recorded
-v1.0 states. No DOI for v1.0.1 is claimed.
+step initially covered GitHub. On 2026-11-15 the same four files were archived
+on Zenodo as [10.5281/zenodo.24239028](https://doi.org/10.5281/zenodo.24239028).
+Anonymous downloads and the DOI resolution were verified; see
+[Zenodo verification](zenodo-publication.json). The original Zenodo v1.0
+record is preserved. Hexagon and ORCID remain at their recorded v1.0 states.
 
 ---
 

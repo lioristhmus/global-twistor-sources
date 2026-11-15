@@ -1,14 +1,14 @@
 {
   "status": "PASS",
-  "verified_at": "2026-11-13T06:39:19.532105+00:00",
-  "record_id": 24186390,
-  "record_url": "https://zenodo.org/records/24186390",
-  "doi": "10.5281/zenodo.24186390",
-  "doi_url": "https://doi.org/10.5281/zenodo.24186390",
+  "verified_at": "2026-11-15T04:53:23.090081+00:00",
+  "record_id": 24239028,
+  "record_url": "https://zenodo.org/records/24239028",
+  "doi": "10.5281/zenodo.24239028",
+  "doi_url": "https://doi.org/10.5281/zenodo.24239028",
   "concept_doi": "10.5281/zenodo.24186389",
-  "paper_version": "1.0",
+  "paper_version": "1.0.1",
   "supplement_version": "1.0.0",
-  "publication_date": "2026-11-13",
+  "publication_date": "2026-11-15",
   "zenodo_status": "published",
   "resource_type": {
     "title": "Preprint",
@@ -20,55 +20,54 @@
     "affiliation": null,
     "orcid": "0009-0004-7908-9876"
   },
-  "asset_count": 5,
+  "asset_count": 4,
   "assets": [
     {
       "name": "SHA256SUMS.txt",
-      "size": 420,
-      "sha256": "d9bbf123be5994695e4b2859b7f8718add53e214370e392803b2c27dd01ae03d",
-      "public_download_url": "https://zenodo.org/api/records/24186390/files/SHA256SUMS.txt/content",
+      "size": 325,
+      "sha256": "5ca1f09c49efc481523a591d87c55e36887ee06eee1b8d9da6f85680a651d6ef",
+      "public_download_url": "https://zenodo.org/api/records/24239028/files/SHA256SUMS.txt/content",
       "verification": "PASS"
     },
     {
-      "name": "global-twistor-computational-supplement-1.0.0.zip",
-      "size": 817401,
-      "sha256": "248696438e3aa89f0508186713b16e9b6570d240562fe92a461d318aaa5db275",
-      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-computational-supplement-1.0.0.zip/content",
+      "name": "global-twistor-sources-en-v1.0.1.pdf",
+      "size": 626406,
+      "sha256": "ec6b2862146cd32f0d939073d5d299e3a8cd5eec65f6af51343027d6fdfc85dc",
+      "public_download_url": "https://zenodo.org/api/records/24239028/files/global-twistor-sources-en-v1.0.1.pdf/content",
       "verification": "PASS"
     },
     {
-      "name": "global-twistor-sources-en-v1.0.pdf",
-      "size": 626608,
-      "sha256": "60911dbc8d08e386fb699ae199766d5344d002fcd52d63002288d88a8d7d3ebf",
-      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-sources-en-v1.0.pdf/content",
+      "name": "global-twistor-sources-v1.0.1-hexagon-source.zip",
+      "size": 74603,
+      "sha256": "95a88407e0f8ccccdbe006b10e8dd16aa5803400d83b798a43cafa3f5ce35275",
+      "public_download_url": "https://zenodo.org/api/records/24239028/files/global-twistor-sources-v1.0.1-hexagon-source.zip/content",
       "verification": "PASS"
     },
     {
-      "name": "global-twistor-sources-v1.0-source.zip",
-      "size": 177509,
-      "sha256": "9dd0d7e385549dae622d3224cca83b8c4e5713c6599457fe1d5be2e5b364cd80",
-      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-sources-v1.0-source.zip/content",
-      "verification": "PASS"
-    },
-    {
-      "name": "global-twistor-sources-v1.0.zip",
-      "size": 922706,
-      "sha256": "79e51777fa76239c72756887895e86602f681a91d36621083d6ed0f932833faa",
-      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-sources-v1.0.zip/content",
+      "name": "global-twistor-sources-v1.0.1-source.zip",
+      "size": 925036,
+      "sha256": "39960d97f1ee6ee80b2bc14664668773f3ec143c6efd551f40d562f5dc146cb7",
+      "public_download_url": "https://zenodo.org/api/records/24239028/files/global-twistor-sources-v1.0.1-source.zip/content",
       "verification": "PASS"
     }
   ],
   "public_download_without_authentication": true,
   "asset_hashes_match_github_release": true,
+  "github_release_url": "https://github.com/lioristhmus/global-twistor-sources/releases/tag/v1.0.1",
   "zip_crc_checks": "PASS",
   "downloaded_repository_validator": "PASS",
+  "saved_check_count": 68,
   "pdf_pages": 72,
-  "ai_use_disclosure_verified": true,
   "doi_resolution": {
-    "returncode": 0,
-    "http_and_effective_url": "200 https://zenodo.org/records/24186390",
-    "stderr": ""
+    "http_status": 200,
+    "effective_url": "https://zenodo.org/records/24239028"
   },
+  "v1.0_record_preserved": 24186390,
+  "v1.0_five_files_and_metadata_preserved": true,
+  "license_scopes_preserved": [
+    "CC-BY-4.0",
+    "Apache-2.0"
+  ],
   "mathematical_jobs_started": 0,
   "hexagon_operations": 0,
   "orcid_operations": 0

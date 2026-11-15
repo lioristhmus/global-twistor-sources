@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-11-13T06:39:19.532105+00:00",
+  "record_id": 24186390,
+  "record_url": "https://zenodo.org/records/24186390",
+  "doi": "10.5281/zenodo.24186390",
+  "doi_url": "https://doi.org/10.5281/zenodo.24186390",
+  "concept_doi": "10.5281/zenodo.24186389",
+  "paper_version": "1.0",
+  "supplement_version": "1.0.0",
+  "publication_date": "2026-11-13",
+  "zenodo_status": "published",
+  "resource_type": {
+    "title": "Preprint",
+    "type": "publication",
+    "subtype": "preprint"
+  },
+  "creator": {
+    "name": "Isthmus, Lior",
+    "affiliation": null,
+    "orcid": "0009-0004-7908-9876"
+  },
+  "asset_count": 5,
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 420,
+      "sha256": "d9bbf123be5994695e4b2859b7f8718add53e214370e392803b2c27dd01ae03d",
+      "public_download_url": "https://zenodo.org/api/records/24186390/files/SHA256SUMS.txt/content",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-computational-supplement-1.0.0.zip",
+      "size": 817401,
+      "sha256": "248696438e3aa89f0508186713b16e9b6570d240562fe92a461d318aaa5db275",
+      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-computational-supplement-1.0.0.zip/content",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-sources-en-v1.0.pdf",
+      "size": 626608,
+      "sha256": "60911dbc8d08e386fb699ae199766d5344d002fcd52d63002288d88a8d7d3ebf",
+      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-sources-en-v1.0.pdf/content",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-sources-v1.0-source.zip",
+      "size": 177509,
+      "sha256": "9dd0d7e385549dae622d3224cca83b8c4e5713c6599457fe1d5be2e5b364cd80",
+      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-sources-v1.0-source.zip/content",
+      "verification": "PASS"
+    },
+    {
+      "name": "global-twistor-sources-v1.0.zip",
+      "size": 922706,
+      "sha256": "79e51777fa76239c72756887895e86602f681a91d36621083d6ed0f932833faa",
+      "public_download_url": "https://zenodo.org/api/records/24186390/files/global-twistor-sources-v1.0.zip/content",
+      "verification": "PASS"
+    }
+  ],
+  "public_download_without_authentication": true,
+  "asset_hashes_match_github_release": true,
+  "zip_crc_checks": "PASS",
+  "downloaded_repository_validator": "PASS",
+  "pdf_pages": 72,
+  "ai_use_disclosure_verified": true,
+  "doi_resolution": {
+    "returncode": 0,
+    "http_and_effective_url": "200 https://zenodo.org/records/24186390",
+    "stderr": ""
+  },
+  "mathematical_jobs_started": 0,
+  "hexagon_operations": 0,
+  "orcid_operations": 0
+}
